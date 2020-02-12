@@ -1,0 +1,438 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TEI
+  SYSTEM 'http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd'>
+<TEI>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Insert Document Title Here</title>
+    <author>Insert Author Name Here</author>
+    <respStmt>
+     <resp>Insert Name of Project Responsible for Transcription</resp>
+     <name>Insert Name of Project Lead</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Insert Distributor Name Here</distributor>
+    <address>
+     <addrLine/>
+    </address>
+    <idno type="Insert Your Type Here">Insert ID Number Here</idno>
+    <availability>
+     <p>Insert Copyright Data Here</p>
+    </availability>
+    <date when="Insert Date Here">Insert Date Here</date>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl>Enter Bibliographical Information Here</bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>Insert Project Here</p>
+   </projectDesc>
+  </encodingDesc>
+  <revisionDesc>
+   <list>
+    <item>
+     <date when="Insert Date of Last Edit">Insert Date of Last Edit</date>
+     Last checked
+    </item>
+   </list>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div1 n="1">
+    <head/>
+    <div2 n="1" part="N">
+     <head/>
+     <p>
+      Meet his wife coming up in
+      <lb n="1"/>
+      the Khalifah, she came up in
+      <lb n="2"/>
+      the Turkistan one of the anglo
+      <lb n="3"/>
+      arabian company a sister
+      <lb n="4"/>
+      ship of the arabistan,
+      <lb n="5"/>
+      Detained at [ILLEGIBLE] from
+      <lb n="6"/>
+      7.15 till 7.30 in shoal water
+      <lb n="7"/>
+      fine very cool night with
+      <lb n="8"/>
+      moonlight night 17 days
+      <lb n="9"/>
+      old;~ At 9.15 anchored
+      <lb n="10"/>
+      for the night at Jwemisseh mist
+      <lb n="11"/>
+      below Matlyeh reach, a
+      <lb n="12"/>
+      cold wind is blowing and I
+      <lb n="13"/>
+      felt it quite cold, I could not
+      <lb n="14"/>
+      sleep on the ground deck without
+      <lb n="15"/>
+      covering myself with the
+      <lb n="16"/>
+      [ILLEGIBLE]
+      <lb n="17"/>
+     </p>
+    </div2>
+    <div2 n="2" part="N">
+     <head>17 Mond.</head>
+     <p>
+      Modte N.W breeze &amp; cold
+      <lb n="18"/>
+      morning, I had to get up &amp; go to
+      <lb n="19"/>
+      my cabin at 4 am for I
+      <lb n="20"/>
+      felt it too cold outside
+      <lb n="21"/>
+      it came on so sudden this
+      <lb n="22"/>
+      cold is making us feel it
+      <lb n="23"/>
+      after that great heat,
+      <lb n="24"/>
+      <pb n="90"/>
+      [PAGE TORN]
+      <lb n="1"/>
+      Without touching~
+      <lb n="2"/>
+      at 6.35 passed Baghdadieh
+      <lb n="3"/>
+      Port~
+      <lb n="4"/>
+      At 8,,45 passed Azizieh,
+      <lb n="5"/>
+      weather keeps very cool, the thermostat
+      <lb n="6"/>
+      in my cabin at 11 was only 74°
+      <lb n="7"/>
+      At 11 am we touched at Shedeif
+      <lb n="8"/>
+      above the shoal place, the S.S.
+      <lb n="9"/>
+      Mossul &amp; barge have just got
+      <lb n="10"/>
+      off &amp; came up she proceeded
+      <lb n="11"/>
+      too, &amp; went on at 11..15~ We
+      <lb n="12"/>
+      took out an anchor &amp; have
+      <lb n="13"/>
+      her off the shoal. at 1.30
+      <lb n="14"/>
+      P.M. having found a good
+      <lb n="15"/>
+      channel of 3 [ILLEGIBLE], we weighed
+      <lb n="16"/>
+      and proceeded &amp; passed down
+      <lb n="17"/>
+      without touching it &amp; went on at 2 P.M~
+      <lb n="18"/>
+      At 3..15 met the Khalifah
+      <lb n="19"/>
+      on her way up and aground
+      <lb n="20"/>
+      at Mezziyeh Debooni
+      <lb n="21"/>
+      reach sent our boat with
+      <lb n="22"/>
+      Mr. Perry &amp; sent letters to Henry
+      <lb n="23"/>
+      <pb n="91"/>
+      and Capt. Clements &amp; their
+      <lb n="1"/>
+      kid, we went on at 3..20 ,
+      <lb n="2"/>
+      I got a letter from Henry,
+      <lb n="3"/>
+      Michail Yaghchi is on board
+      <lb n="4"/>
+      going for few days leave &amp;
+      <lb n="5"/>
+      as his mother Catterina asked
+      <lb n="6"/>
+      for him to come up, also Mrs.
+      <lb n="7"/>
+      Perry on board, She has 215
+      <lb n="8"/>
+      passengers &amp; 152000 Okes,
+      <lb n="9"/>
+      At 5..5 passed Kemlah,
+      <lb n="10"/>
+      weather very cool &amp; fine, moon
+      <lb n="11"/>
+      rose at 7;
+      <lb n="12"/>
+      At 9..50 anchored above
+      <lb n="13"/>
+      Coot; very cool night, I slept in
+      <lb n="14"/>
+      my cabin &amp; had to cover myself
+      <lb n="15"/>
+     </p>
+    </div2>
+    <div2 n="3" part="N">
+     <head>18 Tuesd.</head>
+     <p>
+      Light N.W. &amp; cold morning
+      <lb n="16"/>
+      at daybreak we steamed
+      <lb n="17"/>
+      down to Coot &amp; went alongside
+      <lb n="18"/>
+      at 5 1/2 landed 17 passengers
+      <lb n="19"/>
+      and 30 packages, received
+      <lb n="20"/>
+      Henry's letter &amp; my papers;
+      <lb n="21"/>
+      at 6.35 left Coot; took 11
+      <lb n="22"/>
+      passengers~
+      <lb n="23"/>
+      At 1..45 P.M. landed three
+      <lb n="24"/>
+      passengers at Ali Gherbi
+      <lb n="25"/>
+      <pb n="92"/>
+      At 5..30 P.M. passed Ali Sherghi
+      <lb n="1"/>
+      Light N.W &amp; fine cool weather,
+      <lb n="2"/>
+      at 10 arrived at Amara
+      <lb n="3"/>
+      landed 34 passengers and 25
+      <lb n="4"/>
+      packages, took in some coal;
+      <lb n="5"/>
+      at 11..45 left Amara;
+      <lb n="6"/>
+      the night got very cool, &amp; it was
+      <lb n="7"/>
+      quite cold in the cabin had to
+      <lb n="8"/>
+      cover myself with the [ILLEGIBLE] &amp;
+      <lb n="9"/>
+      still felt it cold;
+      <lb n="10"/>
+     </p>
+    </div2>
+    <div2 n="4" part="N">
+     <head>19 Wedn.</head>
+     <p>
+      Light N.W &amp; cold weather.
+      <lb n="11"/>
+      at 3..10 we anchored above
+      <lb n="12"/>
+      Katat Saleh At 5..15 am
+      <lb n="13"/>
+      proceeded; very fine clear &amp;
+      <lb n="14"/>
+      cold morning; Took 9 1/2
+      <lb n="15"/>
+      passengers from Amara,
+      <lb n="16"/>
+      Detained 30 minutes at Aboo Roba
+      <lb n="17"/>
+      reach &amp; the elbow in chopping
+      <lb n="18"/>
+      though with the anchor;
+      <lb n="19"/>
+      At 8.45 passed again,
+      <lb n="20"/>
+      at 11..45 landed 3 passengers
+      <lb n="21"/>
+      and 14 packages at Gorna,
+      <lb n="22"/>
+      went on at 12 am;
+      <lb n="23"/>
+      At 4 P.M. arrived at Basreh
+      <lb n="24"/>
+      there are the mail at Assyria
+      <lb n="25"/>
+      <pb n="93"/>
+      of last week the S.S. Turkistan
+      <lb n="1"/>
+      of the anglo-arabian S.N copy
+      <lb n="2"/>
+      for asfar her first voyage
+      <lb n="3"/>
+      out she is a very large vessel
+      <lb n="4"/>
+      of 6000 tons; the Taurus for
+      <lb n="5"/>
+      Hotz, the Gorgis for Darby
+      <lb n="6"/>
+      Andrewes and the &quot;ocampo&quot;
+      <lb n="7"/>
+      for Gray Mackenzie &amp; Co all
+      <lb n="8"/>
+      are waiting to ship dates
+      <lb n="9"/>
+      now that everybody is employed
+      <lb n="10"/>
+      packing;~ Rezooki Sayegh came
+      <lb n="11"/>
+      to me &amp; wanted to take me with him
+      <lb n="12"/>
+      to their huts but I declined going,
+      <lb n="13"/>
+      because Rufail is not going up
+      <lb n="14"/>
+      with me this time too, Yousef
+      <lb n="15"/>
+      Marnie &amp; Elias Serkis who came
+      <lb n="16"/>
+      down in the Khalifah last time
+      <lb n="17"/>
+      came also on board &amp; tryed to
+      <lb n="18"/>
+      take me but I refused &amp; they
+      <lb n="19"/>
+      went away~ We discharged
+      <lb n="20"/>
+      cargo till midnight~ I slept
+      <lb n="21"/>
+      in my cabin &amp; found it nice
+      <lb n="22"/>
+      &amp; cool~
+      <lb n="23"/>
+     </p>
+    </div2>
+    <div2 n="5" part="I">
+     <head>20 Thursd.</head>
+     <p>
+      Moote N.W. breeze &amp; fine
+      <lb n="24"/>
+      cool weather, we discharged
+      <lb n="25"/>
+      cargo &amp; began to ship also,
+      <lb n="26"/>
+      <pb n="94"/>
+      [PAGE TORN]
+      <lb n="1"/>
+      ground below Basreh's~
+      <lb n="2"/>
+      I went to the custom house &amp;
+      <lb n="3"/>
+      called on the Mudeer Raoof Bey
+      <lb n="4"/>
+      to see him as he had gone up
+      <lb n="5"/>
+      with us two months ago and is
+      <lb n="6"/>
+      a very nice person. [ILLEGIBLE]
+      <lb n="7"/>
+      on board after 1/2 hours
+      <lb n="8"/>
+      Rezooki Sayegh only called
+      <lb n="9"/>
+      on me in the evening with letters,
+      <lb n="10"/>
+      we finished cargo at 6 P.M.
+      <lb n="11"/>
+      but the Cooling is not yet
+      <lb n="12"/>
+      finished, the coolies are
+      <lb n="13"/>
+      useless set of brutes they
+      <lb n="14"/>
+      do not work at all~
+      <lb n="15"/>
+      the S.S Assyria left at 8
+      <lb n="16"/>
+      P.M. loaded with horses only,
+      <lb n="17"/>
+      <lb n="18"/>
+     </p>
+    </div2>
+   </div1>
+   <div1 n="2">
+    <head>
+     Basreh to Baghdadieh
+     <lb n="19"/>
+    </head>
+    <div2 n="5" part="F">
+     <p>
+      <lb n="20"/>
+      At 8..50 P.M. got underway
+      <lb n="21"/>
+      &amp; proceeded;; ship drawing
+      <lb n="22"/>
+      4 feet 1 inches; Light N.W.
+      <lb n="23"/>
+      breeze &amp; fine cool weather
+      <lb n="24"/>
+      moon rose at 9 P.M. ~
+      <lb n="25"/>
+      <pb n="95"/>
+      Light N.W. &amp; fine cool weather
+      <lb n="1"/>
+      at 2.15 am landed one passenger
+      <lb n="2"/>
+      at Gorna &amp; went on~
+      <lb n="3"/>
+     </p>
+    </div2>
+    <div2 n="6" part="N">
+     <head>21 Frid.</head>
+     <p>
+      At 6.35 passed Azair;~
+      <lb n="4"/>
+      Finished with the passengers
+      <lb n="5"/>
+      tickets we have altogether
+      <lb n="6"/>
+      185 (4 in 1st Class Abobal
+      <lb n="7"/>
+      Mohem Mendeel to Baghdad
+      <lb n="8"/>
+      also 2 Shushter women of
+      <lb n="9"/>
+      [ILLEGIBLE] people &amp; 3 [ILLEGIBLE]
+      <lb n="10"/>
+      free by Lynch Brother's, and
+      <lb n="11"/>
+      one to Amara a young
+      <lb n="12"/>
+      turk unplayed in the municipalities
+      <lb n="13"/>
+      of Basreh called Yousef) 59
+      <lb n="14"/>
+      Persianjs are with through
+      <lb n="15"/>
+      tickets besides 5 are free
+      <lb n="16"/>
+      by L. Brothers &amp; Capt. Cawley;
+      <lb n="17"/>
+      We lost about 2 hours
+      <lb n="18"/>
+      in shoal places between
+      <lb n="19"/>
+      Ghomyjeh &amp; Aboo Roba
+      <lb n="20"/>
+      we could pass over with
+      <lb n="21"/>
+      differently~
+      <lb n="22"/>
+      At 2..20 P.M. landed
+      <lb n="23"/>
+      6 passengers at Kalat Saleh
+      <lb n="24"/>
+      <pb n="96"/>
+     </p>
+    </div2>
+   </div1>
+  </body>
+ </text>
+</TEI>

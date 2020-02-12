@@ -1,0 +1,355 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TEI
+  SYSTEM 'http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd'>
+<TEI>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Insert Document Title Here</title>
+    <author>Insert Author Name Here</author>
+    <respStmt>
+     <resp>Insert Name of Project Responsible for Transcription</resp>
+     <name>Insert Name of Project Lead</name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>Insert Distributor Name Here</distributor>
+    <address>
+     <addrLine/>
+    </address>
+    <idno type="Insert Your Type Here">Insert ID Number Here</idno>
+    <availability>
+     <p>Insert Copyright Data Here</p>
+    </availability>
+    <date when="Insert Date Here">Insert Date Here</date>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl>Enter Bibliographical Information Here</bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>Insert Project Here</p>
+   </projectDesc>
+  </encodingDesc>
+  <revisionDesc>
+   <list>
+    <item>
+     <date when="Insert Date of Last Edit">Insert Date of Last Edit</date>
+     Last checked
+    </item>
+   </list>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div1 n="1">
+    <head/>
+    <div2 n="1" part="N">
+     <head>21 Sund.</head>
+     <p>
+      	At 9.15 left Amara
+      <lb n="1"/>
+     </p>
+     <p>
+      	Light N.W. &amp; Cool weather;
+      <lb n="2"/>
+      I had the pain in my stomach the
+      <lb n="3"/>
+      whole night &amp; could not sleep,
+      <lb n="4"/>
+      I am troubled so much from
+      <lb n="5"/>
+      constipation; Took a small
+      <lb n="6"/>
+      dose of fruit Salt this morning,
+      <lb n="7"/>
+      &amp; feel better;
+      <lb n="8"/>
+     </p>
+     <p>
+      	Gave tickets to 50 Amara
+      <lb n="9"/>
+      passengers ~
+      <lb n="10"/>
+     </p>
+     <p>
+      	At 8.20 am landed two
+      <lb n="11"/>
+      passengers at Ali Gherbi &amp;
+      <lb n="12"/>
+      went on at 8.25;
+      <lb n="13"/>
+     </p>
+     <p>
+      	My stomach troubled me awfully
+      <lb n="14"/>
+      today nearly all the day the pain
+      <lb n="15"/>
+      &amp; wind confined, my bowels being
+      <lb n="16"/>
+      so bunged up; I am taking the
+      <lb n="17"/>
+      Sulphur cream of Touter once
+      <lb n="18"/>
+      everyday but it does not relieve
+      <lb n="19"/>
+      the pain ~
+      <lb n="20"/>
+     </p>
+     <p>
+      	Light N.W. &amp; fine cool weather
+      <lb n="21"/>
+      At 8,,15 P.M. arrived at Coot
+      <lb n="22"/>
+      landed 9 passengers, took
+      <lb n="23"/>
+      in coal 10 Tons carried by
+      <lb n="24"/>
+      the 7 mossullies we brought
+      <lb n="25"/>
+      up free from Basreh
+      <lb n="26"/>
+      <pb n="137"/>
+     </p>
+    </div2>
+    <div2 n="2" part="N">
+     <head>22 Mond</head>
+     <p>
+      	At 11.15 P.M. left Coot
+      <lb n="1"/>
+      Fine weather &amp; very cool ;
+      <lb n="2"/>
+     </p>
+     <p>
+      	Light N.W. &amp; quite cold
+      <lb n="3"/>
+      morning; at 7 am passed
+      <lb n="4"/>
+      Memlah ~ at 7.15 passed
+      <lb n="5"/>
+      the S.S. Phrat &amp; Barge going
+      <lb n="6"/>
+      up ~ gave tickets to 26 1/2 Coot
+      <lb n="7"/>
+      passengers;
+      <lb n="8"/>
+     </p>
+     <p>
+      	Detained at Sheresh from 8 1/2
+      <lb n="9"/>
+      till 10 am in finishing the
+      <lb n="10"/>
+      channel by this time the Phrat
+      <lb n="11"/>
+      came up astern of us ~
+      <lb n="12"/>
+     </p>
+     <p>
+      	At 1.15 P.M. anchored at Sheolud
+      <lb n="13"/>
+      sent to sound the Khalifah
+      <lb n="14"/>
+      in coming down too;
+      <lb n="15"/>
+     </p>
+     <p>
+      	At 2.15 she passed down
+      <lb n="16"/>
+      Johny my nephew is on board
+      <lb n="17"/>
+      he comes in place of Henry
+      <lb n="18"/>
+      who went out to Howeydir
+      <lb n="19"/>
+      on leave for about a month,
+      <lb n="20"/>
+      I received a letter from
+      <lb n="21"/>
+      my wife given by Johny
+      <lb n="22"/>
+      <pb n="138"/>
+      to our Pilot, she says that
+      <lb n="1"/>
+      they are all well &amp; they spent
+      <lb n="2"/>
+      5 days at Kadumain in
+      <lb n="3"/>
+      the Nawah's house &amp; Alexander
+      <lb n="4"/>
+      used to go out shooting he
+      <lb n="5"/>
+      shot 5 partridges &amp; many
+      <lb n="6"/>
+      pigeons ect; ~
+      <lb n="7"/>
+     </p>
+     <p>
+      	At 2..20 we weighed and
+      <lb n="8"/>
+      proceeded up through the
+      <lb n="9"/>
+      channel which the Khalifah
+      <lb n="10"/>
+      came through ~
+      <lb n="11"/>
+     </p>
+     <p>
+      	At 6..5 passed Azizieh
+      <lb n="12"/>
+      Village ~ Detained in shoal
+      <lb n="13"/>
+      water at Lined from 7..30
+      <lb n="14"/>
+      till 11 we had. to take anchors
+      <lb n="15"/>
+      aboard &amp; heave off ~
+      <lb n="16"/>
+     </p>
+     <p>
+      	Detained at Rmelat in
+      <lb n="17"/>
+      sounding channel about
+      <lb n="18"/>
+      1/2 hour;
+      <lb n="19"/>
+     </p>
+    </div2>
+    <div2 n="3" part="N">
+     <head>23 Tuesd.</head>
+     <p>
+      	At 1,,15 am passed Baghdadieh
+      <lb n="20"/>
+      Fort ~ Light N.W. &amp; fine
+      <lb n="21"/>
+      cool morning;
+      <lb n="22"/>
+     </p>
+     <p>
+      	My stomach did not pain me much
+      <lb n="23"/>
+      last night &amp; the wind is getting
+      <lb n="24"/>
+      out by which I feel relieved
+      <lb n="25"/>
+      but feel very weak ~
+      <lb n="26"/>
+      <pb n="139"/>
+     </p>
+     <p>
+      	At 7.10 am we Stopped at
+      <lb n="1"/>
+      Khemasseh &amp; gave letters &amp;
+      <lb n="2"/>
+      packet etc for Colonel Mockler
+      <lb n="3"/>
+      &amp; the Comet, he came on board
+      <lb n="4"/>
+      also Mr. Poucars &amp; Edward
+      <lb n="5"/>
+      Blockey my nephew who is going
+      <lb n="6"/>
+      up with us; Alice my niece
+      <lb n="7"/>
+      came down here yesterday
+      <lb n="8"/>
+      in the Khalifah, they have
+      <lb n="9"/>
+      been shooting here the best
+      <lb n="10"/>
+      among of there is Call Mockler
+      <lb n="11"/>
+      &amp; D. Hewey they got 34 . 22.
+      <lb n="12"/>
+      and once 60 partridges each
+      <lb n="13"/>
+      day, but there are none left
+      <lb n="14"/>
+      now in this vicinity ~
+      <lb n="15"/>
+      At 7..40 we went on ~
+      <lb n="16"/>
+     </p>
+     <p>
+      	At 10,,30 passed Ctesiphon
+      <lb n="17"/>
+      At 11. passed the SS. Baghdad
+      <lb n="18"/>
+      &amp; Barge going down at Menary;
+      <lb n="19"/>
+     </p>
+     <p>
+      	Detained at Gusseiba in
+      <lb n="20"/>
+      shoal water from 11,.15
+      <lb n="21"/>
+      till 12 am;
+      <lb n="22"/>
+     </p>
+     <p>
+      	At 1..40 P.M. passed
+      <lb n="23"/>
+      Diala ~ At 3,,5 I landed
+      <lb n="24"/>
+      <pb n="140"/>
+      Above Gherrarah Garden and
+      <lb n="1"/>
+      walked in to Baghdad straight
+      <lb n="2"/>
+      toward the river through the
+      <lb n="3"/>
+      gardens coming out to near
+      <lb n="4"/>
+      the Kherbendeh Garden &amp; then
+      <lb n="5"/>
+      went along the bank to
+      <lb n="6"/>
+      town, saw Eliza Alexander
+      <lb n="7"/>
+      Tookyeh they are all well,
+      <lb n="8"/>
+      I felt myself very tyered and
+      <lb n="9"/>
+      weatk; the Mejidieh arrived
+      <lb n="10"/>
+      at 5 ~ Alexander shot 5
+      <lb n="11"/>
+      partridges &amp; a lot of pigeons
+      <lb n="12"/>
+      during their 5 days stay
+      <lb n="13"/>
+      at the Nawah's house at
+      <lb n="14"/>
+      Kadumain; &amp; yesterday
+      <lb n="15"/>
+      he was out too opposite
+      <lb n="16"/>
+      Gherrarah &amp; got 3 partridges,
+      <lb n="17"/>
+     </p>
+     <p>
+      	Antone Marrie called,
+      <lb n="18"/>
+      Henry has gone to Howeder
+      <lb n="19"/>
+      on Saturday or Sunday
+      <lb n="20"/>
+      last &amp; I got a letter from
+      <lb n="21"/>
+      him ~
+      <lb n="22"/>
+     </p>
+     <p>
+      	I found here a letter
+      <lb n="23"/>
+      from Julies Bohm from
+      <lb n="24"/>
+      Vienna dated the 11 Septr
+      <lb n="25"/>
+      <pb n="141"/>
+     </p>
+    </div2>
+   </div1>
+  </body>
+ </text>
+</TEI>
