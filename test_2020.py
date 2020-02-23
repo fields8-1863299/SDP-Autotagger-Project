@@ -1,3 +1,6 @@
+# Author: Sam Fields
+# A method for outputting the xml encoding of a txt transcriptiom file
+
 import autotagger
 from config import AutotaggerConfiguration
 
