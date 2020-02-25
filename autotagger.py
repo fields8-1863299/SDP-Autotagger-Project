@@ -220,7 +220,7 @@ class TranscriptionFile:
         logging.warning("""Specified version is greater than the current version. Possibly
                            typo or an update to the autotagger is necessary before usage""")
     elif (version == -1):
-      set_version(0)  
+      set_version(1)
         
     while version < CURRENT_VERSION:
       lines, new_errors = self.uprev(lines)
