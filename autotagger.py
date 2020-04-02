@@ -266,10 +266,10 @@ class TranscriptionFile:
         
 
    # try:
-    tp = TranscriptionPage(str(n), p)
-    if len(tp.errors) > 0:
-      self.errors.extend(tp.errors)
-    self.pages.append(tp)
+    # tp = TranscriptionPage(str(n), p)
+    # if len(tp.errors) > 0:
+    #   self.errors.extend(tp.errors)
+    # self.pages.append(tp)
     #except:
      # """Error with page creation. There is not another page to append."""
   
