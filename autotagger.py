@@ -361,22 +361,22 @@ class TranscriptionFile:
     return version1_lines, v1_errors
 
   #Prints TranscriptionFile in current transcription file format, noting the version number
-  def print(self, lines):
-    print('Version ' + str(CURRENT_VERSION), file=sys.stderr)
+  def printTF(self, lines):
+    printTF('Version ' + str(CURRENT_VERSION), file=sys.stderr)
     for l in lines:
-      print(l, file=sys.stderr)
+      printTF(l, file=sys.stderr)
   
   #Prints a page after processing for debugging purposes, including Version number at
   #first page, Page and number, and lines in head and body.
   def printAfter(self):
-    if self.num == '1': # what if different starting number? Account for that with a variable? 
-      print('Version ' + str(CURRENT_VERSION), file=sys.stderr)
-    print('Page ' + self.num + ':', file=sys.stderr)
+    if self.num == '1': # what if different starting number? Account for that with a variable?
+      printTF('Version ' + str(CURRENT_VERSION), file=sys.stderr)
+    printTF('Page ' + self.num + ':', file=sys.stderr)
     for l in self.head:
-      print(l, file=sys.stderr)
-    print('', file=sys.stderr)
+      printTF(l, file=sys.stderr)
+    printTF('', file=sys.stderr)
     for l in self.body:
-      print(l, file=sys.stderr)            
+      printTF(l, file=sys.stderr)
           
 
 class TranscriptionPage:
@@ -826,7 +826,7 @@ if __name__ in "__main__":
   if len(tf.errors) > 0:
     print("Errors found. Please check error log and try again later.")
     for e in tf.errors:
-      print(e,file=sys.stderr)
+      printTF(e,file=sys.stderr)
   else:
     document = run(tf, cfg)
     print(document.toprettyxml('\t', '\n', None))

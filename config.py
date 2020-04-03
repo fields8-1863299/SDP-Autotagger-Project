@@ -31,7 +31,7 @@ class AutotaggerConfiguration:
         for o in options_dict.keys():
           self.CONFIG_INFO[o]=options_dict[o]
       except KeyError as e: 
-        print(e,file=sys.stderr) 
+        printTF(e,file=sys.stderr)
     elif filepath != None:
       self.read_from_file(filepath)
         
@@ -55,5 +55,5 @@ class AutotaggerConfiguration:
     try:
       return self.CONFIG_INFO[name]
     except KeyError as e:
-      print(e,file=sys.stderr)
+      printTF(e,file=sys.stderr)
   

@@ -8,7 +8,7 @@ from config import AutotaggerConfiguration
 def print_tei(input):
     # cfg -> configuration
     cfg = AutotaggerConfiguration()
-    file = open(input, encoding="utf-8")
+    file = open(input)
     lines = file.readlines()
     file.close()
     # lines is a big (collection of) string(s)
