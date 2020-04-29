@@ -50,7 +50,8 @@ from xml.dom.minidom import *
 
 ## input document and transcription format data
 CURRENT_VERSION = 1
-version = -1
+version = CURRENT_VERSION
+
 
 ## overall regexes
 PAGE_RE = re.compile('^Page\s+(\d+)')
@@ -220,13 +221,14 @@ class TranscriptionFile:
         logging.warning("""Specified version is greater than the current version. Possibly
                            typo or an update to the autotagger is necessary before usage""")
     elif (version == -1):
-      set_version(1)
+      set_version(CURRENT_VERSION)
         
     while version < CURRENT_VERSION:
       lines, new_errors = self.uprev(lines)
       if len(new_errors) > 0:
         self.errors.append(new_errors)
     self.parse_lines(lines)
+
 
   def parse_lines(self, lines):
     """method to parse the lines from the transcription file into
@@ -240,6 +242,7 @@ class TranscriptionFile:
       
       if m2:
         self.errors.append(errors(m2.group(1), -1, lines[0], 5))
+        
       if m1:
         # m.group(0) should be the entire matching string
         # m.group(1) should be the page number
@@ -395,6 +398,7 @@ class TranscriptionPage:
   def __init__(self, num, lines):
     self.num = num
     self.parse_lines(lines)
+    # can still run without logging.debug
     logging.debug("[done]\npage info:")
     logging.debug("number: " + self.num)
     logging.debug("header: \n" + str(self.head))
@@ -419,7 +423,7 @@ class TranscriptionPage:
       m3 = VERSION_RE.match(lines[i])
       m4 = NOTES_RE.match(lines[i])
       m5 = MARGINNOTE_RE.match(lines[i])
-      m6 = FOOTNOTE_RE.match(lines[i])  
+      m6 = FOOTNOTE_RE.match(lines[i])
       if m1 or m2:
         self.errors.append(errors(self.num, i, lines[i], 4))
       #process header
@@ -430,7 +434,7 @@ class TranscriptionPage:
         elif m4 or m5 or m6:
           h.append(lines[i].rstrip())
         elif lines[i].strip() == "":
-          in_body = True
+          in_body = True # does this make it fail later when checking again for another page?
         else:
           self.errors.append(errors(self.num, i, lines[i], 1))
       #process body
@@ -464,7 +468,8 @@ class TranscriptionPage:
           self.errors.append(errors(self.num, i, lines[i], 2))
         else:
           b.append(lines[i].rstrip())# combine with one up 4 lines for less redundancy?
-            
+
+       
     self.head = h
     self.body = b
     #self.printAfter()
@@ -546,7 +551,8 @@ def create_p(document,current_prose, cfg,first_line=None, fresh=False):
   '''method to create a paragraph, needs the list of paragraphs
      possibly also receive a first line (and it's linenum in a list of len 2).
      fresh tells us whether to empty the list before we start'''
-  if fresh: current_prose = []
+  if fresh: 
+    current_prose = []
   current_prose.append(document.createElement('p'))
   if first_line != None:
     current_prose[-1].appendChild(document.createTextNode(first_line[0]))
@@ -607,7 +613,7 @@ def process_header(doc,tf):
         footnotes.append([head, page.num])
         head.setAttribute('type', 'footnote')
         head.appendChild(doc.createTextNode(m.group(1)))
-  return marginheaders, footnotes, xml_ids_dict
+  return marginheaders, footnotes, xml_ids_dict      
 
   
 def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
@@ -634,20 +640,23 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
   div2_count = 1
   margin_queue = []
   
+
   for page in tf.pages:
     linecount = 0
     for l in page.body:
       linecount += 1
-      
       #Insert margin notes when appropriate. Store early notes to add once first
       #section and subsection have been created.
       if len(marginheaders) > 0:
         current_marginnote = marginheaders[0]
-        if linecount <= int(current_marginnote['line']) and page.num == current_marginnote['page']:
+        # linecount <= int(current_marginnote['line']) 
+        if page.num == current_marginnote['page']:
+          print(str(current_marginnote['note']))
           if current_div2 == None:
             margin_queue.append(current_marginnote['note'])
           else:
-            current_div2.appendChild(current_marginnote['note'])
+            current_prose[-1].appendChild(current_marginnote['note'])
+            # current_prose.append(current_marginnote['note'])
           marginheaders.remove(current_marginnote)
       else:
         logging.debug("Ran out of marginheaders.")
@@ -774,7 +783,10 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
     pb = document.createElement('pb')
     pb.setAttribute('n',str(page.num))
     current_prose[-1].appendChild(pb)
-      # print([c.toxml() for c in current_prose],file=sys.stderr)
+    # if (marginheaders != []):   
+    #   test_note = marginheaders[0]
+    #   print(test_note['note'])
+    # print([c.toxml() for c in current_prose],file=sys.stderr)
   # done looping, everything organized so stick the nodes onto the document
   current_div2.childNodes.extend(current_prose)
   current_div1.appendChild(current_div2)
