@@ -547,6 +547,7 @@ def create_div(document, n, div_type, part):
   #return div, div_count
 
 #Creates a new paragraph
+# # param: first_line - a list[] with the first line of the paragraph and the linecount
 def create_p(document,current_prose, cfg,first_line=None, fresh=False):
   '''method to create a paragraph, needs the list of paragraphs
      possibly also receive a first line (and it's linenum in a list of len 2).
@@ -640,27 +641,37 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
   div2_count = 1
   margin_queue = []
   
-
   for page in tf.pages:
     linecount = 0
+    
+    # new method
+    for margin_note in marginheaders:
+      if page.num == margin_note['page']:
+        if current_div2 == None:
+          margin_queue.append(margin_note['note'])
+        else:
+          current_prose.append(margin_note['note'])
+
     for l in page.body:
       linecount += 1
       #Insert margin notes when appropriate. Store early notes to add once first
       #section and subsection have been created.
-      if len(marginheaders) > 0:
-        current_marginnote = marginheaders[0]
-        # linecount <= int(current_marginnote['line']) 
-        if page.num == current_marginnote['page']:
-          print(str(current_marginnote['note']))
-          if current_div2 == None:
-            margin_queue.append(current_marginnote['note'])
-          else:
-            current_prose[-1].appendChild(current_marginnote['note'])
-            # current_prose.append(current_marginnote['note'])
-          marginheaders.remove(current_marginnote)
-      else:
-        logging.debug("Ran out of marginheaders.")
-
+      
+      # old method: 
+      # if len(marginheaders) > 0:
+      #   current_marginnote = marginheaders[0]
+      #   # linecount <= int(current_marginnote['line']) 
+      #   if page.num == current_marginnote['page']:
+      #     if current_div2 == None:
+      #       margin_queue.append(current_marginnote['note'])
+      #     else:
+      #       current_prose.append(current_marginnote['note']) # individual head tag but wrong if pages have multiple margin lines
+      #       # current_prose[-1].appendChild(current_marginnote['note']) # correct on pages
+      #       # current_div2.appendChild(current_marginnote['note']) (Wrong, with all margin note on top)
+      #     marginheaders.remove(current_marginnote)
+      # else:
+      #   logging.debug("Ran out of marginheaders.")
+      
       #Account for empty lines or double spacing
       if cfg.get('LINE_BREAKS'):
         m = EMPTYLINE_RE.match(l)
@@ -761,7 +772,7 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
         
       # Creates a paragraph if found a tab in the text.  
       m = PARA_RE.match(l)
-      if m: 
+      if m or linecount == 1:
         if just_divided:
           current_prose = create_p(document, current_prose, cfg, [l, linecount], fresh=True)
           just_divided = False
@@ -783,10 +794,7 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
     pb = document.createElement('pb')
     pb.setAttribute('n',str(page.num))
     current_prose[-1].appendChild(pb)
-    # if (marginheaders != []):   
-    #   test_note = marginheaders[0]
-    #   print(test_note['note'])
-    # print([c.toxml() for c in current_prose],file=sys.stderr)
+
   # done looping, everything organized so stick the nodes onto the document
   current_div2.childNodes.extend(current_prose)
   current_div1.appendChild(current_div2)

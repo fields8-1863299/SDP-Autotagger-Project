@@ -31,7 +31,7 @@ up free from Basreh
 
 
 Page 138:
-		Notes:
+	Notes:
         Margin Line 1: 1894 Octr.
 	Margin Line 6: The. @ 5. 58
         
@@ -60,7 +60,8 @@ my wife given by Johny
 
 
 Page 139:
-		Notes:
+	Notes:
+	Margin Line 6: test1
         Margin Line 23: The. @ 5 61
 
 to our Pilot, she says that
@@ -92,8 +93,9 @@ but feel very weak ~
 
 
 Page 140:
-		Notes:
+	Notes:
         Margin Line 1: 1894 Octor
+	Margin Line 3: test2
 
 	At 7.10 am we Stopped at
 Khemasseh & gave letters &
