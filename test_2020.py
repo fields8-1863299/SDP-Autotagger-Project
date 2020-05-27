@@ -11,11 +11,13 @@ def print_tei(input):
     file = open(input)
     lines = file.readlines()
     file.close()
+    # print(lines)
     # lines is a big (collection of) string(s)
     tf = autotagger.TranscriptionFile(lines)
     document = autotagger.setup_DOM(cfg)
+    # print(tf.pages)
     # autotagger.run() -> builds the xml file
     document = autotagger.run(tf, cfg)
     print(document.toprettyxml('\t', '\n', None))
 
-print_tei("texts/Test2020_NoSubsection.txt")
+print_tei("texts/d48_clean.txt")

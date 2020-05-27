@@ -9,6 +9,7 @@
 ## victoria wellington
 ## kelsie haakenson
 ## justin yoon
+## travis le
 ## ... (add your names as you edit this file)
 
 # Currently supported transcription formats:
@@ -266,7 +267,8 @@ class TranscriptionFile:
       else:
         p.append(lines[0])
         lines.pop(0)
-        
+  
+    self.pages.append(TranscriptionPage(str(n), p))
 
    # try:
     # tp = TranscriptionPage(str(n), p)
@@ -640,10 +642,9 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
   div1_count = 1
   div2_count = 1
   margin_queue = []
-  
+
   for page in tf.pages:
     linecount = 0
-    
     # new method
     for margin_note in marginheaders:
       if page.num == margin_note['page']:
@@ -665,9 +666,9 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
       #     if current_div2 == None:
       #       margin_queue.append(current_marginnote['note'])
       #     else:
-      #       current_prose.append(current_marginnote['note']) # individual head tag but wrong if pages have multiple margin lines
+      #       # current_prose.append(current_marginnote['note']) # individual head tag but wrong if pages have multiple margin lines
       #       # current_prose[-1].appendChild(current_marginnote['note']) # correct on pages
-      #       # current_div2.appendChild(current_marginnote['note']) (Wrong, with all margin note on top)
+      #       current_div2.appendChild(current_marginnote['note']) # (Wrong, with all margin note on top)
       #     marginheaders.remove(current_marginnote)
       # else:
       #   logging.debug("Ran out of marginheaders.")
