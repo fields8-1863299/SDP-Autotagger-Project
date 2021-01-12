@@ -134,7 +134,7 @@
 
 <!-- new method -->
 <xsl:template match="emph">
-	\arabicfont{<xsl:apply-templates/>}
+	\arabicfont <xsl:apply-templates/>
 </xsl:template>
 
 
