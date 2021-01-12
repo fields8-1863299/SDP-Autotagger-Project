@@ -1,6 +1,7 @@
 Page 137:
 	Notes:
-        Margin Line 4: The. @ 5. 65
+  	Margin Line 4: The. @ 5. 65
+    Margin Line 6: [ARABIC] التدخين للتطهير
 
 	Subsection: 21 Sund.
 	At 9.15 left Amara
@@ -33,12 +34,12 @@ up free from Basreh
 
 Page 138:
 	Notes:
-        Margin Line 1: 1894 Octr.
+  	Margin Line 1: 1894 Octr.
 	Margin Line 6: The. @ 5. 58
         
-	Subsection: 22 Mond
 	At 11.15 P.M. left Coot
 Fine weather & very cool ;
+	Subsection: 22 Mond
 	Light N.W. & quite cold
 morning; at 7 am passed
 Memlah ~ at 7.15 passed
@@ -95,8 +96,8 @@ but feel very weak ~
 
 
 Page 140:
-		Notes:
-        Margin Line 1: 1894 Octor
+  Notes:
+  Margin Line 1: 1894 Octor
 
 	At 7.10 am we Stopped at
 Khemasseh & gave letters &

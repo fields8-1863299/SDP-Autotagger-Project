@@ -42,7 +42,7 @@
 
 <!-- Prints div2 heads as a Section -->
 <xsl:template match="div2/head">
-	\section{<xsl:apply-templates />}
+	\marginpar{<xsl:apply-templates />}
 </xsl:template>
 
 <!-- Prints out paragraphs -->
@@ -125,11 +125,18 @@
 	\item <xsl:value-of select="."/>
 </xsl:template>
 
-<xsl:template match="emph">
+<!-- old method
+  <xsl:template match="emph">
 	\begin{verbatim}
          <xsl:value-of select="."/>
          \end{verbatim}
+</xsl:template> -->
+
+<!-- new method -->
+<xsl:template match="emph">
+	\arabicfont{<xsl:apply-templates/>}
 </xsl:template>
+
 
 <xsl:template match="ref">
 	\textsuperscript{<xsl:apply-templates />}

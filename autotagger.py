@@ -24,6 +24,7 @@
 # 		- Pages
 # 		- Marginal notes
 #			- Line breaks
+#     - Arabic text (work in progress - fall 2020)
 
 # Is backwards compatible with earlier versions of the STDF format (listed above). 
 # Encoding is in UTF-8. Any text in non-latin alphabets (such as Arabic) is left untouched
@@ -82,7 +83,8 @@ MARGINNOTE_RE = re.compile('^\s*Margin\s+Line\s+(\d+):?\s*(.*)$')
 FOOTNOTE_RE = re.compile('^\s*Footnote:?\s*(.*)$')
 SECTION_RE = re.compile('^\s*Section:?\s*(.*)$')
 SUBSECTION_RE = re.compile('^\s*Subsection:?\s*(.*)$')
-SUBSECTIONNUMBER_RE = re.compile('^\s*Subsection:?\s*\d+:(.*)$') #take out once problem is fixed? 
+SUBSECTIONNUMBER_RE = re.compile('^\s*Subsection:?\s*\d+:(.*)$') #take out once problem is fixed?
+ARABIC_RE = re.compile('\s*ARABIC?')
 
 
 #Sets version for document so it is accessible throughout program
@@ -554,10 +556,13 @@ def create_p(document,current_prose, cfg,first_line=None, fresh=False):
   '''method to create a paragraph, needs the list of paragraphs
      possibly also receive a first line (and it's linenum in a list of len 2).
      fresh tells us whether to empty the list before we start'''
-  if fresh: 
+  if fresh:
     current_prose = []
   current_prose.append(document.createElement('p'))
   if first_line != None:
+    strip = first_line[0].strip()
+    if strip[1:7] == 'ARABIC':
+      current_prose[-1].appendChild(document.createElement('emph'))
     current_prose[-1].appendChild(document.createTextNode(first_line[0]))
     if cfg.get('LINE_BREAKS'):
       current_prose[-1].appendChild(create_line_break(document, str(first_line[1])))
@@ -598,7 +603,6 @@ def process_header(doc,tf):
       m = NOTES_RE.match(l)
       if m:
         continue
-
       m = MARGINNOTE_RE.match(l)
       if m:
         head = doc.createElement('head')
@@ -616,9 +620,8 @@ def process_header(doc,tf):
         footnotes.append([head, page.num])
         head.setAttribute('type', 'footnote')
         head.appendChild(doc.createTextNode(m.group(1)))
-  return marginheaders, footnotes, xml_ids_dict      
+  return marginheaders, footnotes, xml_ids_dict
 
-  
 def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
   """Translates data contained in the body text of the transcription file into XML,
   combining the structure indicated in the body text with the given notes from the
@@ -657,21 +660,6 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
       linecount += 1
       #Insert margin notes when appropriate. Store early notes to add once first
       #section and subsection have been created.
-      
-      # old method: 
-      # if len(marginheaders) > 0:
-      #   current_marginnote = marginheaders[0]
-      #   # linecount <= int(current_marginnote['line']) 
-      #   if page.num == current_marginnote['page']:
-      #     if current_div2 == None:
-      #       margin_queue.append(current_marginnote['note'])
-      #     else:
-      #       # current_prose.append(current_marginnote['note']) # individual head tag but wrong if pages have multiple margin lines
-      #       # current_prose[-1].appendChild(current_marginnote['note']) # correct on pages
-      #       current_div2.appendChild(current_marginnote['note']) # (Wrong, with all margin note on top)
-      #     marginheaders.remove(current_marginnote)
-      # else:
-      #   logging.debug("Ran out of marginheaders.")
       
       #Account for empty lines or double spacing
       if cfg.get('LINE_BREAKS'):
