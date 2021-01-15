@@ -31,6 +31,7 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{8pt plus3pt minus2pt}
 \raggedright
+
 \begin{document}
 
 \newcommand{\mnote}[1] {\marginpar{\scriptsize \raggedright #1 }}
