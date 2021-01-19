@@ -611,8 +611,13 @@ def process_header(doc,tf):
         head.setAttribute('type','marginnote')
         marginnote_id = "p" + page.num + '-' + m.group(1)
         marginnote_id = process_id(xml_ids_dict, marginnote_id)
-        head.setAttribute('xml:id', marginnote_id) 
-        head.appendChild(doc.createTextNode(m.group(2)))
+        head.setAttribute('xml:id', marginnote_id)
+        header_content = m.group(2).strip()
+        if header_content[1:7] == 'ARABIC':
+          head.appendChild(doc.createElement('emph'))
+          head.appendChild(doc.createTextNode(header_content[8:len(header_content)]))
+        else:
+          head.appendChild(doc.createTextNode(m.group(2)))
       
       m = FOOTNOTE_RE.match(l)
       if m:
