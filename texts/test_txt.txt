@@ -5,7 +5,7 @@ DIARY, Nr 53
 1902/3
 
 Page 002:
-  Margin Line 1:[ARABIC] اليوم نيسان ليلاً اكتب. قرأت هذا الدفتر في نادي السعدون واتممت هذه (؟) فلا حاجة الى الرجوع فأن الحواشي مهيأة لآدخل المواد في الفهارس
+  Margin Line 1:[ARABIC] 1ا3ليوم نيسان ليلاً اكتب. قرأت هذا الدفتر في نادي السعدون واتممت هذه (؟) 2فلا حاجة الى الرجوع فأن الحواشي مهيأة لآدخل المواد في الفهارس
   
 Page 003:
   Margin Line 1:1902 Jany
@@ -38,7 +38,7 @@ quarantine at [strikethrough "Diala"] Gherara
 
 Page 004:
   Margin Line 1:1902 Jany
-  Margin Line 14:[ARABIC] بالو عند ريشارز بمناسبة ميلاد امبراطور المانية
+  Margin Line 14:[ARABIC] 1بالو عند ريشارز3 بمناسبة2 ميلاد امبراطور المانية
 
 and the other doctors disagreed
 with the two Beledyeh doctors,

@@ -615,6 +615,7 @@ def process_header(doc,tf):
         header_content = m.group(2).strip()
         if header_content[1:7] == 'ARABIC':
           head.appendChild(doc.createElement('emph'))
+          print(header_content[8:len(header_content)])
           head.appendChild(doc.createTextNode(header_content[8:len(header_content)]))
         else:
           head.appendChild(doc.createTextNode(m.group(2)))

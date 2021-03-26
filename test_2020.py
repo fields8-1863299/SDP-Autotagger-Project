@@ -18,4 +18,4 @@ def print_tei(input):
   document = autotagger.run(tf, cfg)
   print(document.toprettyxml('\t', '\n', None))
 
-print_tei("texts/test_txt.txt")
+print_tei("texts/Diary_61.txt")
