@@ -24,7 +24,8 @@
 # 		- Pages
 # 		- Marginal notes
 #			- Line breaks
-#     - Arabic text (work in progress - fall 2020)
+#     - Arabic text
+#     - Table (work in progress - spring 2021)
 
 # Is backwards compatible with earlier versions of the STDF format (listed above). 
 # Encoding is in UTF-8. Any text in non-latin alphabets (such as Arabic) is left untouched
@@ -559,11 +560,12 @@ def create_p(document,current_prose, cfg,first_line=None, fresh=False):
   if fresh:
     current_prose = []
   current_prose.append(document.createElement('p'))
+  table_format = ['<table>', '<row>', '</table>']
   if first_line != None:
     strip = first_line[0].strip()
     if strip[1:7] == 'ARABIC':
       current_prose[-1].appendChild(document.createElement('emph'))
-    current_prose[-1].appendChild(document.createTextNode(strip[8:len(strip)]))
+    current_prose[-1].appendChild(document.createTextNode(strip))
     if cfg.get('LINE_BREAKS'):
       current_prose[-1].appendChild(create_line_break(document, str(first_line[1])))
       #logging.debug("called line break from create_p at page " + str(page.num) + " and line " + linecount)
@@ -615,7 +617,6 @@ def process_header(doc,tf):
         header_content = m.group(2).strip()
         if header_content[1:7] == 'ARABIC':
           head.appendChild(doc.createElement('emph'))
-          print(header_content[8:len(header_content)])
           head.appendChild(doc.createTextNode(header_content[8:len(header_content)]))
         else:
           head.appendChild(doc.createTextNode(m.group(2)))

@@ -39,27 +39,7 @@ Page 001:
 
 	Diary NR 61
 	1907/08
-	
-Page 002:
-	Notes:
-	
-January 1908
-<table>
-<row> <cell>500</cell> <cell>Rufail</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>500</cell> <cell>Candida Suakhander</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>500</cell> <cell>Awasha Pachachy</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>500</cell> <cell>Eliahoo Denoos</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>500</cell> <cell>Naman Pachachy</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>325</cell> <cell>_Dto_ Dto_</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>150</cell> <cell>Rezooki Nakar</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>150</cell> <cell>Seyd Ali Zowayed</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>300</cell> <cell>Rezooki Sayegh</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>120</cell> <cell>Lent to Alexander</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>[underlined 200]</cell> <cell>Cash</cell> <cell></cell> <cell></cell> </row>
-<row> <cell>3,695</cell> <cell> </cell> <cell></cell> <cell></cell> </row>
-</table>
 
-Page 003: 
 	Notes:
 	Margin Line 1: 1907
 	Margin Line 2: Decr
@@ -93,7 +73,7 @@ side (the right), this proved
 that the malady had not
 been complicated or
 
-Page 004:
+Page 002:
 	Notes:
 	Margin Line 1: 1907
 	Margin Line 2: Decr
@@ -127,7 +107,7 @@ we sat in the siting room
 and told hm that Cecile was
 asleep & reposed;
 
-Page 005:
+Page 003:
 	Notes:
 	Margin Line 7: Th 6.64
 	Margin Line 8: noon 63
@@ -166,7 +146,7 @@ constipated~ I also called
 on Menusha & Ganie house
 at 10, founds Rufail Sayegh
 
-Page 006:
+Page 004:
 	Notes:
 	Margin Line 2: 1907
 	Margin Line 3: Decr
@@ -203,7 +183,7 @@ will bring Dr. Macconaghi
 if we want~
 	Monsingeur Jean Drnex
 	
-Page 007:
+Page 005:
 	Notes:
 	Margin Line 15: Th. 6.52
 	Margin Line 16: noon 54
@@ -240,7 +220,7 @@ happy;~ Dr. Nizam el Din
 came at 8 a.m. & found Cecile
 much better and he sounded
 
-Page 008:
+Page 006:
 	Notes:
 	Margin Line 2: 1907
 	Margin Line 3: Decr
@@ -274,7 +254,7 @@ nuns etc called~
 her fever 39° increased
 1/2 degree this afternoon
 
-Page 009:
+Page 007:
 	Notes:
 	Margin Line 18: Th 6.50
 	Margin Line 19: noon 56
@@ -312,7 +292,7 @@ him to see her about her
 cold in chest & has cough
 & pain, he examined
 
-Page 010:
+Page 008:
 	Notes:
 	Margin Line 1: 1907
 	Margin Line 3: Decr
@@ -351,7 +331,7 @@ weak only~
 I then called on the Marines
 & Ruphail- also
 
-Page 011:
+Page 009:
 	Notes:
 	
 with Rezooki Andria went to
@@ -384,7 +364,7 @@ also Antoin Juliette~
 	Light N.W. & very fine cold
  weather~
  
-Page 012:
+Page 010:
  	Notes:
  	Margin Line 2: 1907
  	Margin Line 3: Decr
@@ -424,7 +404,7 @@ at sunset. I am so shivering
 toward evening, & after having
 taken my dinner I felt
 
-Page 013:
+Page 011:
 	Notes:
 	Margin Line 7: Th 6.46
 	Margin Line 8: noon 52
@@ -462,7 +442,7 @@ touched nothing since
 yesterday; Dr. Mac Canaghy
 came yesterday to see
 
-Page 014:
+Page 012:
 	Notes:
 	Margin Line 2: 1907
 	Margin Line 3: Decr
@@ -499,7 +479,7 @@ thing, Dr. MacConaghy has been
 to see her this evening and
 ordered medicines etc~
 
-Page 015:
+Page 013:
 	Notes:
 	Margin Line 6: Th 6.43
 	Margin Line 8: noon 53
@@ -539,7 +519,7 @@ side for repairs~
 	Alexander Marie & myself
 called on Menusha at 2 pm.
 
-Page 016:
+Page 014:
 	Notes:
 	Margin Line 2: 1907
 	Margin Line 3: Decr
@@ -581,7 +561,7 @@ home at 3 p.m.
 August called on us~
 	I sent today by Turkish
 	
-Page 017:
+Page 015:
 	Notes:
 	Margin Line 18: Th 6.41
 	Margin Line 19: noon 52
@@ -618,7 +598,7 @@ in the Hotel of Abdulahad
 At 2 p.m. I went to see sister
 Eliza, she is the same as before
 
-Page 018:
+Page 016:
 	Notes:
 	Margin Line 1: 1907
 	Margin Line 3: Decr
@@ -661,7 +641,7 @@ Alexander in his office there
 I came home, prepared to
 go out to my house after
 
-Page 019:
+Page 017:
 	Notes:
 	Margin Line 26: Th 6.36
 	
@@ -697,7 +677,7 @@ It got very cold with wind
 cloudy;
 	I called on Eliza & Adoola
 	
-Page 020:
+Page 018:
 	Notes:
 	Margin Line 2: 1907
 	Margin Line 3: Decr
@@ -736,7 +716,7 @@ fine & very cold too~
 The SS Phrat passed down
 at 5 a.m.~
 
-Page 021:
+Page 019:
 	Notes:
 	Margin Line 24: Th 6.46
 	Margin Line 25: noon 60
@@ -775,7 +755,7 @@ At 2 p.m. I walked in to
 town to sleep at Alexander
 so as to visit some people
 
-Page 022:
+Page 020:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 2: Jany
@@ -812,7 +792,7 @@ the Babelshergi, to show
 him the cabbige, that it has
 been stolen by Jassim's
 
-Page 023:
+Page 021:
 	Notes:
 
 relatives Addai, Selman,
@@ -847,7 +827,7 @@ the walk & excitement made
 me feel worse; we took
 dinner~
 
-Page 024:
+Page 022:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 2: Jany
@@ -886,7 +866,7 @@ At 4 p.m. Alexander, Marie
 [illegible] daughter Mr. [illegible],
 Marie then went to call
 
-Page 025:
+Page 023:
 	Notes:
 	Margin Line 9: Th 6.50
 
@@ -923,7 +903,7 @@ Alexander left me to go to
 the office and at 3 1/2 p.m.
 I got a goffa & came
 
-Page 026:
+Page 024:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 3: Jany
@@ -969,7 +949,7 @@ little better but Nizam el Din
 said that she can live a
 few weeks longer but not
 
-Page 027:
+Page 025:
 	Notes:
 	Margin Line 12: Th 6.44
 	Margin Line 22: Georgia Sagmon died yesterday
@@ -1007,7 +987,7 @@ disease & short of breath,
 he leaves a wife Eliza Toni
 Jessy & some children
 
-Page 028:
+Page 026:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 2: Jany
@@ -1041,7 +1021,7 @@ prostitues & bottles of spirits
 & other things, then the two
 other carriages came later
 
-Page 029:
+Page 027:
 	Notes:
 	Margin Line 23: Th 6.45
 	
@@ -1074,7 +1054,7 @@ Cloudy all over & light southerly
 breeze~ in the afternoon
 clouds getting detached
 
-Page 030:
+Page 028:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 3: Jany
@@ -1117,7 +1097,7 @@ passed up~
 very fine & cold weather.
 	The steamer Launch Ishtar
 	
-Page 031:
+Page 029:
 	Notes:
 
 passed down at 6 a.m. to Basrah
@@ -1152,7 +1132,7 @@ she is much better now,
 they insisted on me to go
 back with them, they
 
-Page 032:
+Page 030:
 	Notes:
 	Margin Line 2: 1908
 	Margin Line 4: Jany
@@ -1196,13 +1176,13 @@ wife, Alexander was in the office,
 Rufail Sayegh also came,
 we cut the gruiere cheese
 
-Page 033:
+Page 031:
 	Notes:[MISSING]
 
-Page 034: 
+Page 032: 
 	Notes:[MISSING]	
 
-Page 035:
+Page 031:
 	Notes:
 	Margin Line 25: Th 6.41
 	
@@ -1238,7 +1218,7 @@ Alexander at 2 p.m. he says
 that sister Eliza is better
 today;~
 
-Page 036:
+Page 032:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 3: Jany
@@ -1275,7 +1255,7 @@ he bought a year ago for
 "At Home" this evening to
 about 50 persons Europeans
 
-Page 037:
+Page 033:
 	Notes:
 	Margin Line 15: Th 6.44
 	
@@ -1312,7 +1292,7 @@ it was too far, so I got tired
 is very warm, too light
 S. Ely & clouds~
 
-Page 038:
+Page 034:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 3: Jany
@@ -1350,7 +1330,7 @@ I got to Alexander's house in
 but Cecile is still keeping a
 diet on account of a very
 
-Page 039:
+Page 035:
 	Notes:
 	Margin Line 17: Th 6.52
 
@@ -1385,7 +1365,7 @@ nourishments etc, but she
 complains of weakness &
 shortness of breath.
 
-Page 040:
+Page 036:
 	Notes:
 	Margin Line 1: 1908
 	Margin Line 2: Jany
@@ -1420,7 +1400,7 @@ Skander Ghaleb & at
 3 pm left with my cook
 & came out, still raining
 
-Page 041:
+Page 037:
 	Notes:
 	Margin Line 19: Th 6.43
 	
@@ -1457,7 +1437,7 @@ Jassim went to town at
 I sent a letter to Alexander
 At 9 I called on Eliza and 
 
-Page 042:
+Page 038:
 	Notes:
 	Margin Line 2: 1908
 	Margin Line 4: Jany
@@ -1498,7 +1478,7 @@ at 2 1/2 am.
 	My stomach is bad, wind
 thirst & indigestion, I took
 
-Page 043:
+Page 039:
 	Notes:
 	
 my milk & coffee & 2 eggs but
@@ -1528,7 +1508,7 @@ at 1 3/4 o'clock
 a.m. on Sunday morning
 the 19th January 1908.
 
-Page 044:
+Page 040:
 	Notes:
 	
 On the 18th January 1908 I
@@ -1554,7 +1534,7 @@ much troubled & I better
 bring out a carriage to
 carry him to town.
 
-Page 045:
+Page 041:
 	Notes:
 	
 	At 8 a.m. the same day
@@ -1581,7 +1561,7 @@ the last time he is seeing them.
 At 10 a.m. we reahed
 my house in town & at
 
-Page 046:
+Page 042:
 	Notes:
 	
 put papa in his room
@@ -1606,7 +1586,7 @@ other feeling his belly puffed
 & at 11 1/2 p.m. asked me
 to call mama as he feels 
 
-Page 047:
+Page 043:
 	Notes:
 	
 very bad. Mama &
@@ -1632,7 +1612,7 @@ Magnesia in order to
 evacuate the wind which
 fearfully puffed up his
 
-Page 048:
+Page 044:
 	Notes:
 	
 stomach, belly, breast &
@@ -1656,7 +1636,7 @@ fact agony continued
 till exactly 1 3/4 a.m.
 when poor poor father
 
-Page 049:
+Page 045:
 	Notes:
 	
 rendered his soul to
@@ -1672,7 +1652,7 @@ the bursting of his ulcer
 in his stomach causing
 the fatal peritonitis!
 
-Page 050:
+Page 046:
 	Notes:
 	
 After the unfortunate
@@ -1694,7 +1674,7 @@ stomache ache.
 Six months after
 his death I felt
 
-Page 051:
+Page 047:
 	Notes:
 	
 gradually that my
@@ -1716,7 +1696,7 @@ The crisis of my stomache
 ache comes twice or thrice
 a month, thus being
 
-Page 052:
+Page 048:
 	Notes:
 
 [underlined What I possess]
@@ -1730,4 +1710,24 @@ Page 052:
 <row> <cell></cell> <cell>5200</cell> <cell></cell> <cell></cell> </row>
 <row> <cell>Besides the profit in arac which must be added & reconed at about</cell> <cell>[underlined 800]</cell> <cell></cell> <cell></cell> </row>
 <row> <cell></cell> <cell>??6000</cell> <cell></cell> <cell></cell> </row>
+</table>
+
+Page 051:
+	Notes:
+	
+January 1908
+
+<table>
+<row> <cell>500</cell> <cell>Rufail</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>500</cell> <cell>Candida Suakhander</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>500</cell> <cell>Awasha Pachachy</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>500</cell> <cell>Eliahoo Denoos</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>500</cell> <cell>Naman Pachachy</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>325</cell> <cell>_Dto_ Dto_</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>150</cell> <cell>Rezooki Nakar</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>150</cell> <cell>Seyd Ali Zowayed</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>300</cell> <cell>Rezooki Sayegh</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>120</cell> <cell>Lent to Alexander</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>[underlined 200]</cell> <cell>Cash</cell> <cell></cell> <cell></cell> </row>
+<row> <cell>3,695</cell> <cell> </cell> <cell></cell> <cell></cell> </row>
 </table>
