@@ -16,6 +16,8 @@ def print_tei(input):
   document = autotagger.setup_DOM(cfg)
   # autotagger.run() -> builds the xml file
   document = autotagger.run(tf, cfg)
+  # document = document.replace("&gt;", ">")
+  # document = document.replace("&lt;", "<")
   print(document.toprettyxml('\t', '\n', None))
 
-print_tei("texts/Diary_61.txt")
+print_tei("texts/test_txt.txt")

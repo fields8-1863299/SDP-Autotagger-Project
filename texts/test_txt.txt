@@ -4,10 +4,11 @@ Page 001:
 DIARY, Nr 53
 1902/3
 
-  table
-  row cell The country house valued at /cell cell ??1500 /cell /row
-  row  cell in the arac business I have put in all /cell cell 2500 /cell /row
-  /table
+  <table>
+    <row> <cell> The country house valued at </cell> <cell> 1500 </cell> </row>
+    <row> <cell> in the arac business I have put in all </cell> <cell> 2500 </cell> </row>
+  </table>
+  
 
 Page 002:
   Margin Line 1:[ARABIC] 1ا3ليوم نيسان ليلاً اكتب. قرأت هذا الدفتر في نادي السعدون واتممت هذه (؟) 2فلا حاجة الى الرجوع فأن الحواشي مهيأة لآدخل المواد في الفهارس
