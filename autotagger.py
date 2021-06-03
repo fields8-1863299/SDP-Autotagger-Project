@@ -554,46 +554,43 @@ def create_div(document, n, div_type, part):
 #Creates a new paragraph
 # # param: first_line - a list[] with the first line of the paragraph and the linecount
 def create_p(document,current_prose, cfg,first_line=None, fresh=False):
-  '''method to create a paragraph, needs the list of paragraphs
-     possibly also receive a first line (and it's linenum in a list of len 2).
-     fresh tells us whether to empty the list before we start'''
-  if fresh:
-    current_prose = []
-  
-  if first_line is None:
+    '''method to create a paragraph, needs the list of paragraphs
+    possibly also receive a first line (and it's linenum in a list of len 2).
+    fresh tells us whether to empty the list before we start'''
+    if fresh:
+        current_prose = []
     current_prose.append(document.createElement('p'))
-  if first_line != None:
-    table_format = ['<table>', '<row>', '</table>']
-    strip = first_line[0].strip()
-    if table_format[0] in strip:
-      current_prose.append(document.createElement('table'))
-    count = 0
-    if any(word in strip for word in table_format):
-        # # current_prose.append(document.createElement('table'))
-        # print('nothing')
-      if table_format[1] in strip:
-        if count == 0:
-          count += 1
-          current_prose.append(document.createElement('row'))
-        content = strip[6:len(strip) - 15].replace('</cell>', '')
-        cells = content.split('<cell>')
-        for cell in cells:
-          if len(cell) > 0:
-            current_prose.append(document.createElement('cell'))
-            current_prose[-1].appendChild(document.createTextNode(cell))
-      if table_format[2] in strip:
-        current_prose.append(document.createElement('lb'))
-    else:
-      current_prose.append(document.createElement('p'))
-      if first_line != None:
+    if first_line != None:
         strip = first_line[0].strip()
         if strip[1:7] == 'ARABIC':
-          current_prose[-1].appendChild(document.createElement('emph'))
-        current_prose[-1].appendChild(document.createTextNode(strip))
+            current_prose[-1].appendChild(document.createElement('emph'))
+        current_prose[-1].appendChild(document.createTextNode(strip[8:len(strip)]))
         if cfg.get('LINE_BREAKS'):
-          current_prose[-1].appendChild(create_line_break(document, str(first_line[1])))
-          #logging.debug("called line break from create_p at page " + str(page.num) + " and line " + linecount)
-  return current_prose
+            current_prose[-1].appendChild(create_line_break(document, str(first_line[1])))
+            #logging.debug("called line break from create_p at page " + str(page.num) + " and line " + linecount)
+    return current_prose
+
+
+def create_table(document, current_prose, cfg, table_format, first_line=None, fresh=False):
+    print('table format')
+    if fresh:
+        current_prose = []
+    if table_format[0] in first_line:
+        current_prose.append(document.createElement('table'))
+    # if first_line != None:
+    if any(word in first_line for word in table_format):
+        if table_format[1] in first_line:
+            current_prose[-1].appendChild(document.createElement('row'))
+            content = first_line[6:len(first_line) - 15].replace('</cell>', '')
+            cells = content.split('<cell>')
+            for cell in cells:
+                if len(cell) > 0:
+                    current_prose[-1].appendChild(document.createElement('cell'))
+                    current_prose[-1].appendChild(document.createTextNode(cell))
+    if table_format[2] in first_line:
+        current_prose.append(document.createElement('table'))
+    return current_prose
+
 
 #Creates a line break of the given number
 def create_line_break(document, linecount):
@@ -782,23 +779,33 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
         continue
       else: 
         if current_div2 == None:
-          current_div2_head, current_div2 = create_div(document, str(div2_count), 'div2',
-          part = "N")
-          div2_count += 1
-          #current_div2, div2_count = create_generic_div(document, div2_count, 'div2')
-          current_div2.childNodes.extend(margin_queue)
-          current_div1.appendChild(current_div2)
+            current_div2_head, current_div2 = create_div(document, str(div2_count), 'div2',
+            part = "N")
+            div2_count += 1
+            #current_div2, div2_count = create_generic_div(document, div2_count, 'div2')
+            current_div2.childNodes.extend(margin_queue)
+            current_div1.appendChild(current_div2)
         subsection_found = False
         
       # Creates a paragraph if found a tab in the text.  
       m = PARA_RE.match(l)
       if m or linecount == 1:
+        table_format = ['<table>', '<row>', '</table>']
+        strip = l.strip()
         if just_divided:
-          current_prose = create_p(document, current_prose, cfg, [l, linecount], fresh=True)
-          just_divided = False
-          #will this pose a problem if for some reason there isn't a paragraph right afterwards?
+            if strip in table_format or table_format[1] in strip:
+                current_prose = create_table(document, current_prose, cfg, table_format, strip, fresh=True)
+            else:
+              current_prose = create_p(document, current_prose, cfg, [l,linecount], fresh=True)
+            # current_prose = create_p(document, current_prose, cfg, [l, linecount], fresh=True)
+            just_divided = False
+            #will this pose a problem if for some reason there isn't a paragraph right afterwards?
         else:
-          current_prose = create_p(document, current_prose, cfg, [l,linecount])
+            if strip in table_format or table_format[1] in strip:
+                current_prose = create_table(document, current_prose, cfg, table_format, strip)
+            else:
+              current_prose = create_p(document, current_prose, cfg, [l,linecount])
+            # current_prose = create_p(document, current_prose, cfg, [l,linecount])
       # Processes plain lines of body text
       else:
         just_divided = False
