@@ -390,7 +390,6 @@ class TranscriptionFile:
 class TranscriptionPage:
   """class to hold a transcription page in a nice object
      it has a 'number', a 'header', and a 'body'
-
      the number should be a positive integer (or zero?, maybe?)
      the header and body are just lists of lines"""
 
@@ -564,7 +563,9 @@ def create_p(document,current_prose, cfg,first_line=None, fresh=False):
         strip = first_line[0].strip()
         if strip[1:7] == 'ARABIC':
             current_prose[-1].appendChild(document.createElement('emph'))
-        current_prose[-1].appendChild(document.createTextNode(strip[8:len(strip)]))
+            current_prose[-1].appendChild(document.createTextNode(strip[8:len(strip)]))
+        else:
+            current_prose[-1].appendChild(document.createTextNode(strip))
         if cfg.get('LINE_BREAKS'):
             current_prose[-1].appendChild(create_line_break(document, str(first_line[1])))
             #logging.debug("called line break from create_p at page " + str(page.num) + " and line " + linecount)
