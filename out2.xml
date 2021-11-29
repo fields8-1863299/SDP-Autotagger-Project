@@ -1,0 +1,292 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TEI
+  SYSTEM 'http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd'>
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Insert Document Title Here</title>
+				<author>Insert Author Name Here</author>
+				<respStmt>
+					<resp>Insert Name of Project Responsible for Transcription</resp>
+					<name>Insert Name of Project Lead</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Insert Distributor Name Here</distributor>
+				<address>
+					<addrLine/>
+				</address>
+				<idno type="Insert Your Type Here">Insert ID Number Here</idno>
+				<availability>
+					<p>Insert Copyright Data Here</p>
+				</availability>
+				<date when="Insert Date Here">Insert Date Here</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Enter Bibliographical Information Here</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Insert Project Here</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<list>
+				<item>
+					<date when="Insert Date of Last Edit">Insert Date of Last Edit</date>
+					Last checked
+				</item>
+			</list>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 n="1">
+				<head>
+					Diary 53
+					<lb n="1"/>
+				</head>
+				<div2 n="1" part="N">
+					<head/>
+					<p>
+						DIARY, Nr 53
+						<lb n="2"/>
+						1902/3
+						<lb n="3"/>
+						<lb n="4"/>
+					</p>
+					<table>
+						<row/>
+						<cell/>
+						 The country house valued at  
+						<cell/>
+						 1500
+						<row/>
+						<cell/>
+						 in the arac business I have put in all  
+						<cell/>
+						 2500
+					</table>
+					<table>
+						<pb n="1"/>
+					</table>
+					<head type="marginnote" xml:id="p2-1">
+						<emph content=" 1ا3ليوم نيسان ليلاً اكتب. قرأت هذا الدفتر في نادي السعدون واتممت هذه (؟) 2فلا حاجة الى الرجوع فأن الحواشي مهيأة لآدخل المواد في الفهارس"/>
+						<pb n="2"/>
+					</head>
+					<head type="marginnote" xml:id="p3-1">
+						
+						<emph content=" 1ا3ليوم نيسان ليلاً اكتب. قرأت هذا الدفتر في نادي السعدون واتممت هذه (؟) 2فلا حاجة الى الرجوع فأن الحواشي مهيأة لآدخل المواد في الفهارس"/>
+					</head>
+					<head type="marginnote" xml:id="p3-8">
+						
+						<emph content=" 1ا3ليوم نيسان ليلاً اكتب. قرأت هذا الدفتر في نادي السعدون واتممت هذه (؟) 2فلا حاجة الى الرجوع فأن الحواشي مهيأة لآدخل المواد في الفهارس"/>
+					</head>
+				</div2>
+				<div2 n="2" part="N">
+					<head>24 Frid The 6.46</head>
+					<p>
+						From Diary No. 52
+						<lb n="1"/>
+					</p>
+					<p>
+						Light N.W. breeze &amp; cloudy;
+						<lb n="2"/>
+						I feel better &amp; stronger today &amp; have
+						<lb n="3"/>
+						much appetite; I got some boiled
+						<lb n="4"/>
+						Biz fish for breakfast, which I
+						<lb n="5"/>
+						found very delicious; I also took
+						<lb n="6"/>
+						some Arrow root etc; ~ But I feel
+						<lb n="7"/>
+						so thursty always, &amp; only like to
+						<lb n="8"/>
+						suck sweet Lemon or Oranges;
+						<lb n="9"/>
+					</p>
+					<p>
+						The Quarantine Authorities
+						<lb n="10"/>
+						after having inspected the Jewish
+						<lb n="11"/>
+						quarters with the Turkish Beledyeh
+						<lb n="12"/>
+						Doctors &amp; referred the matter
+						<lb n="13"/>
+						to Constanple, a decision came
+						<lb n="14"/>
+						to establish a Cordon around
+						<lb n="15"/>
+						Baghdad of 5 days quarantine
+						<lb n="16"/>
+						on all those that leave the town
+						<lb n="17"/>
+						and consequently, a quarantine
+						<lb n="18"/>
+						been put yesterday at Gherara,
+						<lb n="19"/>
+						Khan Beni Saad, Mahmoodieh,
+						<lb n="20"/>
+						Salahieh etc etc; The Steamers
+						<lb n="21"/>
+						will also have to make 5 days
+						<lb n="22"/>
+						quarantine at [strikethrough &quot;Diala&quot;] Gherara
+						<lb n="23"/>
+						<pb n="3"/>
+					</p>
+					<head type="marginnote" xml:id="p4-1">
+						
+						<emph content=" 1ا3ليوم نيسان ليلاً اكتب. قرأت هذا الدفتر في نادي السعدون واتممت هذه (؟) 2فلا حاجة الى الرجوع فأن الحواشي مهيأة لآدخل المواد في الفهارس"/>
+					</head>
+					<head type="marginnote" xml:id="p4-14">
+						<emph content=" 1بالو عند ريشارز3 بمناسبة2 ميلاد امبراطور المانية"/>
+					</head>
+					<p>
+						and the other doctors disagreed
+						<lb n="1"/>
+						with the two Beledyeh doctors,
+						<lb n="2"/>
+						and they do not believe that the
+						<lb n="3"/>
+						sickness among the Jews is
+						<lb n="4"/>
+						a real Plague; because the
+						<lb n="5"/>
+						desease does not resemble each
+						<lb n="6"/>
+						other, some die suddenly, other get
+						<lb n="7"/>
+						buboes &amp; fever &amp; so on ~
+						<lb n="8"/>
+					</p>
+					<p>
+						Mr. Rappaport called to see me,
+						<lb n="9"/>
+						he was glad to find me getting
+						<lb n="10"/>
+						better; as on Monday the 27th
+						<lb n="11"/>
+						is the Emperor of Germany’s
+						<lb n="12"/>
+						Birthday; Mr. Richarz the consul
+						<lb n="13"/>
+						is giving a Ball &amp; supper and
+						<lb n="14"/>
+						50 persons are invited among
+						<lb n="15"/>
+						whom my niece Alice, also
+						<lb n="16"/>
+						Antone Marine his wife and
+						<lb n="17"/>
+						two daughters; Mr. Richarz
+						<lb n="18"/>
+						has asked Mr. Rappaport to
+						<lb n="19"/>
+						see me and to find out if he can
+						<lb n="20"/>
+						invite my son Alexander and
+						<lb n="21"/>
+						his wife Mary, &amp; there will be
+						<lb n="22"/>
+						no objection on account of us
+						<lb n="23"/>
+						being in mourning; We told him
+						<lb n="24"/>
+						that they can go if they like, so he
+						<lb n="25"/>
+						gave the letter of invitation from
+						<lb n="26"/>
+						Mr. Richarz;~
+						<lb n="27"/>
+						<pb n="4"/>
+					</p>
+					<head type="marginnote" xml:id="p8-1">
+						
+						<emph content=" 1بالو عند ريشارز3 بمناسبة2 ميلاد امبراطور المانية"/>
+					</head>
+					<head type="marginnote" xml:id="p8-8">
+						<emph content=" ولادة امبراطورالمانية."/>
+					</head>
+					<head type="marginnote" xml:id="p8-20">
+						<emph content=" الوالي نامق پـاشا وكاظم پـاشا"/>
+					</head>
+					<p>
+						Light N.W. &amp; very fine cold
+						<lb n="1"/>
+						&amp; freezing; I feel much better,
+						<lb n="2"/>
+						Took my milk &amp; a boiled egg;
+						<lb n="3"/>
+					</p>
+				</div2>
+				<div2 n="3" part="N">
+					<head>27 Mond The 6.32</head>
+					<p>
+						Today is the birthday of the
+						<lb n="4"/>
+						Emperor of Germany William the
+						<lb n="5"/>
+						2d, Official reception is giving
+						<lb n="6"/>
+						Mr. Richarz the Consul from
+						<lb n="7"/>
+						10 till 11 AM, I sent Alexander
+						<lb n="8"/>
+						to visit, there was the Turkish
+						<lb n="9"/>
+						Band playing, &amp; all officials
+						<lb n="10"/>
+						calling; also the Wali Namik
+						<lb n="11"/>
+						Pasha, Kadem Pasha the acting
+						<lb n="12"/>
+						Commander in Chief &amp; all the
+						<lb n="13"/>
+						foreign consuls ~
+						<lb n="14"/>
+					</p>
+					<p>
+						It is very cold again today,
+						<lb n="15"/>
+						I went out to the other room
+						<lb n="16"/>
+						sister Medula called, also
+						<lb n="17"/>
+						the french Priests &amp; Johny
+						<lb n="18"/>
+						Pahlawan~
+						<lb n="19"/>
+					</p>
+					<p>
+						Today died Tooza bint
+						<lb n="20"/>
+						Seman widow of Mr. Johnstone
+						<lb n="21"/>
+						formerly Quarter Master of the
+						<lb n="22"/>
+						S.S. Comet, also Attyeh son of
+						<lb n="23"/>
+						Antone Gorgi from parrelitic
+						<lb n="24"/>
+						attack~
+						<lb n="25"/>
+					</p>
+					<p>
+						At 9 ½ P.M. Alexander &amp; his wife
+						<lb n="26"/>
+						went to the dancing evening given
+						<lb n="27"/>
+						<pb n="8"/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
+

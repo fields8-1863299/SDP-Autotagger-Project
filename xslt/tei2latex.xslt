@@ -26,6 +26,8 @@
 
 \documentclass{report}
 \usepackage{fontspec}
+\usepackage{arabxetex} 
+\usepackage{bidi}
 \newfontfamily
 \arabicfont{Al Nile}
 \setlength{\parindent}{0pt}
@@ -89,13 +91,10 @@
 	}
 </xsl:template>-->
 
-<!-- adds arabic environment that surrounds arabic text 
-<xsl:template match="foreign">
-	\begin{arabtext}
-	<xsl:value-of select="."/>
-	\end{arabtext}
+<!-- adds arabic environment that surrounds arabic text -->
+<xsl:template match="emph">
+  \RTL{\textarab{<xsl:value-of select="@content"/>}}\LTR
 </xsl:template>
--->
 
 <!-- inserts linegroup into document-->
 <xsl:template match="lg">
@@ -140,9 +139,9 @@
 </xsl:template> -->
 
 <!-- new method -->
-<xsl:template match="emph">
+<!-- <xsl:template match="emph">
 	\arabicfont <xsl:apply-templates/>
-</xsl:template>
+</xsl:template> -->
 
 
 <xsl:template match="ref">

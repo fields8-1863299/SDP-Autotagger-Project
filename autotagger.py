@@ -562,8 +562,11 @@ def create_p(document,current_prose, cfg,first_line=None, fresh=False):
     if first_line != None:
         strip = first_line[0].strip()
         if strip[1:7] == 'ARABIC':
-            current_prose[-1].appendChild(document.createElement('emph'))
-            current_prose[-1].appendChild(document.createTextNode(strip[8:len(strip)]))
+          em = doc.createElement('emph')
+          em.setAttribute('content', header_content[8:len(header_content)])
+          current_prose[-1].appendChild(em)
+            # current_prose[-1].appendChild(document.createElement('emph'))
+            # current_prose[-1].appendChild(document.createTextNode(strip[8:len(strip)]))
         else:
             current_prose[-1].appendChild(document.createTextNode(strip))
         if cfg.get('LINE_BREAKS'):
@@ -573,7 +576,7 @@ def create_p(document,current_prose, cfg,first_line=None, fresh=False):
 
 
 def create_table(document, current_prose, cfg, table_format, first_line=None, fresh=False):
-    print('table format')
+    # print('table format')
     if fresh:
         current_prose = []
     if table_format[0] in first_line:
@@ -584,6 +587,8 @@ def create_table(document, current_prose, cfg, table_format, first_line=None, fr
             current_prose[-1].appendChild(document.createElement('row'))
             content = first_line[6:len(first_line) - 15].replace('</cell>', '')
             cells = content.split('<cell>')
+            # content = first_line[6:len(first_line) - 15].replace('[eCELL]', '')
+            # cells = content.split('[CELL]')
             for cell in cells:
                 if len(cell) > 0:
                     current_prose[-1].appendChild(document.createElement('cell'))
@@ -637,9 +642,51 @@ def process_header(doc,tf):
         marginnote_id = process_id(xml_ids_dict, marginnote_id)
         head.setAttribute('xml:id', marginnote_id)
         header_content = m.group(2).strip()
-        if header_content[1:7] == 'ARABIC':
-          head.appendChild(doc.createElement('emph'))
-          head.appendChild(doc.createTextNode(header_content[8:len(header_content)]))
+        only_arabic = True # distinguishes if the text contains both Arabic and English
+        arab_index = 0
+        eng_index = len(header_content)
+        is_translation = False
+        header_content_arab = header_content
+        # finds the index of Arabic characters if exists
+        if '[ARABIC]' in header_content:
+          arab_index = header_content.index('[ARABIC]')
+          if '[ENGLISH]' in header_content:
+            eng_index = header_content.index('[ENGLISH]')
+          header_content_arab = header_content[arab_index:eng_index]
+          if (eng_index < len(header_content) or arab_index > 0):
+            only_arabic = False
+            if '=' in header_content:
+              is_translation = True
+
+        if '[arabic]' in header_content:
+          arab_index = header_content.index('[arabic]')
+          if '[ENGLISH]' in header_content:
+            eng_index = header_content.index('[ENGLISH]')
+          header_content_arab = header_content[arab_index:eng_index]
+          if (eng_index < len(header_content) or arab_index > 0):
+            only_arabic = False
+            if '=' in header_content:
+              is_translation = True
+            
+        if is_translation:
+          only_arabic = True
+
+        if only_arabic == False:
+          not_arabic = header_content[0:arab_index]
+          head.appendChild(doc.createTextNode(not_arabic))
+        
+        if header_content_arab[1:7] == 'ARABIC' or header_content_arab[1:7] == 'arabic':
+          em = doc.createElement('emph')
+          em.setAttribute('content', header_content_arab[8:len(header_content_arab)])
+          head.appendChild(em)
+          if eng_index > 0:
+            if is_translation:
+              equal_index = header_content.index('=')
+              translation = header_content[0:equal_index-1]
+              translation = ' [' + translation + ']'
+              head.appendChild(doc.createTextNode(translation))
+            not_arabic = header_content[eng_index+9:]
+            head.appendChild(doc.createTextNode(not_arabic))
         else:
           head.appendChild(doc.createTextNode(m.group(2)))
       
@@ -792,6 +839,7 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
       m = PARA_RE.match(l)
       if m or linecount == 1:
         table_format = ['<table>', '<row>', '</table>']
+        # table_format = ['[TABLE]', '[ROW]', '[eTABLE]']
         strip = l.strip()
         if just_divided:
             if strip in table_format or table_format[1] in strip:
