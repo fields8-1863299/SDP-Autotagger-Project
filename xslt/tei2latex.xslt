@@ -163,21 +163,21 @@
 -->
 
 <xsl:template match="table">
-	\begin{tabular}{|c|c|c|c|c|}
+	\begin{tabular}{|ccccc|}
 	\hline
 	<xsl:apply-templates/>
 	\hline
 	\end{tabular}
 </xsl:template>
-
 <xsl:template match="row">
 	<xsl:apply-templates/>
 	\\
+  \hline
 </xsl:template>
 
-<xsl:template match="cell">
+<xsl:template match="col">
 	<xsl:apply-templates/>
-	<!--<xsl:value-of select='normalize-space()'/>-->
+	<xsl:value-of select="@content"/>
 	&amp;
 </xsl:template>
 
@@ -273,4 +273,3 @@
 </xsl:template> 
 
 </xsl:stylesheet>
-

@@ -10,7 +10,6 @@
 ## kelsie haakenson
 ## justin yoon
 ## travis le
-## min kim
 ## ... (add your names as you edit this file)
 
 # Currently supported transcription formats:
@@ -562,45 +561,50 @@ def create_p(document,current_prose, cfg,first_line=None, fresh=False):
     current_prose.append(document.createElement('p'))
     if first_line != None:
         strip = first_line[0].strip()
-        if '[ARABIC]' in strip or '[arabic]' in strip or '[Arabic]' in strip:
+        if '[ARABIC]' in strip or '[arabic]' in strip:
           create_arabic(strip, current_prose[-1], document)
+        # if strip[1:7] == 'ARABIC':
+        #     current_prose[-1].appendChild(document.createElement('emph'))
+        #     current_prose[-1].appendChild(document.createTextNode(strip[8:len(strip)]))
         else:
             current_prose[-1].appendChild(document.createTextNode(first_line[0]))
+            # current_prose[-1].appendChild(document.createTextNode(strip))
         if cfg.get('LINE_BREAKS'):
             current_prose[-1].appendChild(create_line_break(document, str(first_line[1])))
             #logging.debug("called line break from create_p at page " + str(page.num) + " and line " + linecount)
     return current_prose
 
-# output structure:
-# <table><row><col content="content"/></row></table>
-def create_table(document, current_prose, cfg, table_format=None, first_line=None, fresh=False):
-    table_content = []
+def create_table(document, current_prose, cfg, table_format, first_line=None, fresh=False):
+    # print('table format')
     if fresh:
         current_prose = []
-    if '[TABLE]' in first_line:
+    if table_format[0] in first_line:
         current_prose.append(document.createElement('table'))
-    if '[TABLE]' not in first_line:
-      table_content = first_line.split('\,')
-    prev_sep_end_index = 0
-    if len(table_content) > 0:
-      row = document.createElement('row')
-      for content in table_content:
-        col = document.createElement('col')
-        # col.setAttribute = content
-        col.setAttribute('content', content)
-        row.appendChild(col)
-      current_prose[-1].appendChild(row)
-    if '[endTABLE]' in first_line:
-      current_prose.append(document.createElement('table'))
+    # if first_line != None:
+    if any(word in first_line for word in table_format):
+        if table_format[1] in first_line:
+            current_prose[-1].appendChild(document.createElement('row'))
+            content = first_line[6:len(first_line) - 15].replace('</cell>', '')
+            cells = content.split('<cell>')
+            # content = first_line[6:len(first_line) - 15].replace('[eCELL]', '')
+            # cells = content.split('[CELL]')
+            for cell in cells:
+                if len(cell) > 0:
+                    current_prose[-1].appendChild(document.createElement('cell'))
+                    current_prose[-1].appendChild(document.createTextNode(cell))
+    if table_format[2] in first_line:
+        current_prose.append(document.createElement('table'))
     return current_prose
 
 def create_arabic(header_content, head, doc, empty=False):
+  # if empty:
+  #   head.append(document.createElement('p'))
   only_arabic = True # distinguishes if the text contains both Arabic and English
   arab_index = 0
-  equal_index = 0
   eng_index = len(header_content)
   is_translation = False
   header_content_arab = header_content
+  # not_arabic = ""
   # finds the index of Arabic characters if exists
   if '[ARABIC]' in header_content:
     arab_index = header_content.index('[ARABIC]')
@@ -621,29 +625,13 @@ def create_arabic(header_content, head, doc, empty=False):
       only_arabic = False
       if '=' in header_content:
         is_translation = True
-
-  if '[Arabic]' in header_content:
-    arab_index = header_content.index('[Arabic]')
-    if '[ENGLISH]' in header_content:
-      eng_index = header_content.index('[ENGLISH]')
-    header_content_arab = header_content[arab_index:eng_index]
-    if (eng_index < len(header_content) or arab_index > 0):
-      only_arabic = False
-      if '=' in header_content:
-        is_translation = True
       
   if is_translation:
-    equal_index = header_content.index('=')
-    if equal_index + 2 == arab_index:
-      only_arabic = True
+    only_arabic = True
 
   if only_arabic == False:
-    if is_translation:
-      not_arabic = header_content[equal_index+2:arab_index]
-      head.appendChild(doc.createTextNode(not_arabic))
-    else:
-      not_arabic = header_content[0:arab_index]
-      head.appendChild(doc.createTextNode(not_arabic))
+    not_arabic = header_content[0:arab_index]
+    head.appendChild(doc.createTextNode(not_arabic))
   
   if header_content_arab[1:7] == 'ARABIC' or header_content_arab[1:7] == 'arabic':
     em = doc.createElement('emph')
@@ -651,11 +639,14 @@ def create_arabic(header_content, head, doc, empty=False):
     head.appendChild(em)
     if eng_index > 0:
       if is_translation:
+        equal_index = header_content.index('=')
         translation = header_content[0:equal_index-1]
         translation = ' [' + translation + ']'
         head.appendChild(doc.createTextNode(translation))
       not_arabic = header_content[eng_index+9:]
       head.appendChild(doc.createTextNode(not_arabic))
+  # else:
+  #   head.appendChild(doc.createTextNode(m.group(2)))
 
 #Creates a line break of the given number
 def create_line_break(document, linecount):
@@ -701,7 +692,7 @@ def process_header(doc,tf):
         marginnote_id = process_id(xml_ids_dict, marginnote_id)
         head.setAttribute('xml:id', marginnote_id)
         header_content = m.group(2).strip()
-        if '[ARABIC]' in header_content or '[arabic]' in header_content or '[Arabic]' in header_content:
+        if '[ARABIC]' in header_content or '[arabic]' in header_content:
           create_arabic(header_content, head, doc)
         else:
           head.appendChild(doc.createTextNode(m.group(2)))
@@ -796,7 +787,6 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
           div1_head, div1 = create_div(document, str(div1_count), 'div1', None)
           current_div1 = div1
           div1_count += 1
-
             
 
         div1_head.appendChild(document.createTextNode(m.group(1)))
@@ -855,23 +845,23 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
       # Creates a paragraph if found a tab in the text.  
       m = PARA_RE.match(l)
       if m or linecount == 1:
-        is_table = False
-        table_format = ['[TABLE]', '\,']
+        table_format = ['<table>', '<row>', '</table>']
+        # table_format = ['[TABLE]', '[ROW]', '[eTABLE]']
         strip = l.strip()
         if just_divided:
-            if table_format[0] in strip or table_format[1] in strip:
-              current_prose = create_table(document, current_prose, cfg, table_format, strip, fresh=True)
-              is_table = True
+            if strip in table_format or table_format[1] in strip:
+                current_prose = create_table(document, current_prose, cfg, table_format, strip, fresh=True)
             else:
               current_prose = create_p(document, current_prose, cfg, [l,linecount], fresh=True)
+            # current_prose = create_p(document, current_prose, cfg, [l, linecount], fresh=True)
             just_divided = False
             #will this pose a problem if for some reason there isn't a paragraph right afterwards?
         else:
-            if table_format[0] in strip or table_format[1] in strip:
-              current_prose = create_table(document, current_prose, cfg, table_format, strip)
-              is_table = True
+            if strip in table_format or table_format[1] in strip:
+                current_prose = create_table(document, current_prose, cfg, table_format, strip)
             else:
               current_prose = create_p(document, current_prose, cfg, [l,linecount])
+            # current_prose = create_p(document, current_prose, cfg, [l,linecount])
       # Processes plain lines of body text
       else:
         just_divided = False
@@ -881,14 +871,7 @@ def process_body(document, tf, marginheaders, footnotes, xml_ids_dict, cfg):
           #logging.debug("called line break from else after paragraph creation (regular prose) line 817 at page " + str(page.num) + " and line " + linecount)
     # maybe add in something that says to delete the last line break 
     # before creating the next page to fix that bug?
-
-    # to avoid page number being included in the table
-    if is_table:
-      current_prose_1 = []
-      current_prose_1.append(document.createElement('div'))
-      current_prose_1[-1].appendChild(current_prose[-1])
-      current_prose[-1] = current_prose_1[-1]
-    
+      
     last_empty = False
     empty_lines = 0
     pb = document.createElement('pb')
