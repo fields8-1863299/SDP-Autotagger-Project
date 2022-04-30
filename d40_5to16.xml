@@ -1,0 +1,778 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TEI
+  SYSTEM 'http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd'>
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Insert Document Title Here</title>
+				<author>Insert Author Name Here</author>
+				<respStmt>
+					<resp>Insert Name of Project Responsible for Transcription</resp>
+					<name>Insert Name of Project Lead</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Insert Distributor Name Here</distributor>
+				<address>
+					<addrLine/>
+				</address>
+				<idno type="Insert Your Type Here">Insert ID Number Here</idno>
+				<availability>
+					<p>Insert Copyright Data Here</p>
+				</availability>
+				<date when="Insert Date Here">Insert Date Here</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Enter Bibliographical Information Here</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Insert Project Here</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<list>
+				<item>
+					<date when="Insert Date of Last Edit">Insert Date of Last Edit</date>
+					Last checked
+				</item>
+			</list>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 n="1">
+				<head/>
+				<div2 n="1" part="I">
+					<head/>
+					<p>
+						<lb n="1"/>
+						<lb n="2"/>
+						very warm calm &amp; sultry
+						<lb n="3"/>
+						weather, at 2,,50 am
+						<lb n="4"/>
+						arrived at Coot, landed 38
+						<lb n="5"/>
+						passengers ; and 101 packages
+						<lb n="6"/>
+						Received Henry's letter &amp; my
+						<lb n="7"/>
+						news papers, the Khalifah
+						<lb n="8"/>
+						had 138,000 Okes cargo and
+						<lb n="9"/>
+						about 200 passengers ~
+						<lb n="10"/>
+					</p>
+					<p>
+						        At 4,,35 left Coot, the
+						<lb n="11"/>
+						weather is very warm and
+						<lb n="12"/>
+						calm not a breath of air
+						<lb n="13"/>
+						with few clouds on the horyzon
+						<lb n="14"/>
+						a very trying weather indeed,
+						<lb n="15"/>
+						I am so swetting in my
+						<lb n="16"/>
+						cabin and nearly fainting,
+						<lb n="17"/>
+						we took 16 1/2 passengers
+						<lb n="18"/>
+						from Coo;~
+						<lb n="19"/>
+					</p>
+					<p>
+						        At 7 1/2 a light S. Ely breeze
+						<lb n="20"/>
+						sprung up; Since the 13th the
+						<lb n="21"/>
+						weather has changed for the
+						<lb n="22"/>
+						worse, always S. Ely wind
+						<lb n="23"/>
+						calm &amp; sultry &amp; moist at most
+						<lb n="24"/>
+						[illegible] ~
+						<lb n="25"/>
+					</p>
+					<p>
+						        At 11,,30 landed some fruit
+						<lb n="26"/>
+						for Khdeir ibn H. Ismail at
+						<lb n="27"/>
+						Ali Gherbi and went on
+						<lb n="28"/>
+						<pb n="5"/>
+					</p>
+					<head type="marginnote" xml:id="p6-1">1894 July</head>
+					<p>
+						there are about 1400 Bales of
+						<lb n="1"/>
+						wool here to the shipped up,
+						<lb n="2"/>
+						Very light S. Ely breeze &amp;
+						<lb n="3"/>
+						warm miserable weather,
+						<lb n="4"/>
+						I have caught a bad cold;
+						<lb n="5"/>
+					</p>
+					<p>
+						        At 7.15 P.M. arrived at
+						<lb n="6"/>
+						Amara landed 32 1/2
+						<lb n="7"/>
+						passengers &amp; 6 free and 22 Packag
+						<lb n="8"/>
+						an awful weather, we
+						<lb n="9"/>
+						could scarcely take our dinner
+						<lb n="10"/>
+						from the heat and calm moist
+						<lb n="11"/>
+						suffocating, We shipped
+						<lb n="12"/>
+						199 Bales of Pressed wool,
+						<lb n="13"/>
+						I never saw such a night
+						<lb n="14"/>
+						as this, a very light S. Ely
+						<lb n="15"/>
+						&amp; so warm, One does not
+						<lb n="16"/>
+						know where to go and how
+						<lb n="17"/>
+						to keep himself from
+						<lb n="18"/>
+						fainting, the water is
+						<lb n="19"/>
+						very warm~
+						<lb n="20"/>
+					</p>
+					<p>
+						        At 10.5 finished the
+						<lb n="21"/>
+						wool we proceeded; the
+						<lb n="22"/>
+						moon rose by this time,
+						<lb n="23"/>
+						Tanton Eassayi his
+						<lb n="24"/>
+						wife &amp; two sons
+						<lb n="25"/>
+						<pb n="6"/>
+					</p>
+					<head type="marginnote" xml:id="p7-6">24 Tuesd.</head>
+					<p>
+						[ILLEGIBLE] [ILLEGIBLE] took 1st Class
+						<lb n="1"/>
+						Cabin for Basreh;
+						<lb n="2"/>
+						At 12 1/2 passed the S.S. Baghdad
+						<lb n="3"/>
+						and Barge going up; Very
+						<lb n="4"/>
+						calm warm and clouds on
+						<lb n="5"/>
+						the horyzon~
+						<lb n="6"/>
+					</p>
+					<p>
+						        At 1.10 AM anchored
+						<lb n="7"/>
+						above Kalat Saleh; At
+						<lb n="8"/>
+						4,15 proceeded, landed Mr.
+						<lb n="9"/>
+						Selman Durian and his
+						<lb n="10"/>
+						servant at K. Saleh and
+						<lb n="11"/>
+						went on    A very light breeze
+						<lb n="12"/>
+						from N.W. and clouds still
+						<lb n="13"/>
+						hanging on, the Cabin is
+						<lb n="14"/>
+						very warm ,it has not
+						<lb n="15"/>
+						cooled down all the night;
+						<lb n="16"/>
+						the Atmosphere is loaded with
+						<lb n="17"/>
+						moisture~ Gave tickets to
+						<lb n="18"/>
+						14 1/2 Amara passengers,
+						<lb n="19"/>
+						including Tanton Eassayi &amp;
+						<lb n="20"/>
+						his wife &amp; 3 children in 1st Class
+						<lb n="21"/>
+					</p>
+					<p>
+						        At 7,,30 passed Azair
+						<lb n="22"/>
+						A light Westerly breeze sprung
+						<lb n="23"/>
+						up but it very moisty, at
+						<lb n="24"/>
+						<pb n="7"/>
+					</p>
+					<head type="marginnote" xml:id="p8-1">1894 July</head>
+					<p>
+						10.30 landed 4 passengers and
+						<lb n="1"/>
+						4 packages at Gorna and
+						<lb n="2"/>
+						went on at 10,40, Very light
+						<lb n="3"/>
+						Westerly breeze~
+						<lb n="4"/>
+					</p>
+					<p>
+						        At 2,,50 PM arrived at
+						<lb n="5"/>
+						Basreh, the mail St Mecca
+						<lb n="6"/>
+						the SS. Sultan, for Muir Tweedy
+						<lb n="7"/>
+						and the SS. Gorgi for Darby
+						<lb n="8"/>
+						Andrews &amp; co are here;
+						<lb n="9"/>
+						The heat is still as bad as
+						<lb n="10"/>
+						before; at 4 1/2 I went up
+						<lb n="11"/>
+						to Jeboory Asfar where Yousif
+						<lb n="12"/>
+						Marine and Rufail were under
+						<lb n="13"/>
+						the Punkah, it got very calm,
+						<lb n="14"/>
+						we then went to Rufail's
+						<lb n="15"/>
+						place Naoom Loca and Mr.
+						<lb n="16"/>
+						Johnston came but it got
+						<lb n="17"/>
+						so warm that we could
+						<lb n="18"/>
+						not stand it; we then all
+						<lb n="19"/>
+						went over to Jeboory there
+						<lb n="20"/>
+						came also Kass Toma
+						<lb n="21"/>
+						Bahy, Meneshi Gareh &amp;
+						<lb n="22"/>
+						Capt Chapui of the little
+						<lb n="23"/>
+						S Esther which Jeboory
+						<lb n="24"/>
+						Asfar has bought now
+						<lb n="25"/>
+						for a 1000 £ for the Company
+						<lb n="26"/>
+						<pb n="8"/>
+					</p>
+					<head type="marginnote" xml:id="p9-1">
+						<emph content="1000 باوتد (؟) شركة آنكلو ارابين"/>
+						 [1000 Pounds [illegible] The Anglo Arabian Company]
+						
+					</head>
+					<head type="marginnote" xml:id="p9-23">
+						25 Wedn.
+						<lb n="1"/>
+						of the Anglo Arabian;
+						<lb n="2"/>
+						The heat became very intense
+						<lb n="3"/>
+						moist calm and suffocating
+						<lb n="4"/>
+						we all dined there and
+						<lb n="5"/>
+						at 10 Yousef Rufail Rezookî
+						<lb n="6"/>
+						&amp; I came to the Hut at
+						<lb n="7"/>
+						Rufails place but the
+						<lb n="8"/>
+						heat became worse, we
+						<lb n="9"/>
+						went up on top of the
+						<lb n="10"/>
+						store room, but it became
+						<lb n="11"/>
+						worse; We were fainting
+						<lb n="12"/>
+						I thought something was going
+						<lb n="13"/>
+						to happen to me; the vapour
+						<lb n="14"/>
+						&amp; moisture the heat rising
+						<lb n="15"/>
+						from the trees &amp; marshes &amp;
+						<lb n="16"/>
+						dead Calm, tîll 11 1/2 when
+						<lb n="17"/>
+						a light S. Ely breeze spring
+						<lb n="18"/>
+						up; We then laid down
+						<lb n="19"/>
+						it kept on, &amp; after midnight
+						<lb n="20"/>
+						the air whirled round to
+						<lb n="21"/>
+						N. W. &amp; back again After
+						<lb n="22"/>
+						5 minutes &amp; became calm
+						<lb n="23"/>
+						but not so warm;
+						<lb n="24"/>
+					</head>
+					<p>
+						        Very light air from S. Ely
+						<lb n="25"/>
+						quarter, &amp; West, but warm
+						<lb n="26"/>
+						&amp; bad as yesterday, few
+						<lb n="27"/>
+						Clouds on the horyzon;
+						<lb n="28"/>
+						<pb n="9"/>
+					</p>
+					<head type="marginnote" xml:id="p10-1">1894 July</head>
+					<p>
+						At 7 1/4 AM I came on board
+						<lb n="1"/>
+						We are discharging and
+						<lb n="2"/>
+						shipping cargo; The heat
+						<lb n="3"/>
+						is most intense during the
+						<lb n="4"/>
+						day, I called at 10 to see Effie
+						<lb n="5"/>
+						my niece she is under the
+						<lb n="6"/>
+						Punka; Capt Cowley went
+						<lb n="7"/>
+						to Darby &amp; spent the day under
+						<lb n="8"/>
+						the Punkah &amp; came at 3 P.M.
+						<lb n="9"/>
+						it is impossible to resist
+						<lb n="10"/>
+						5 minutes in the cabin;
+						<lb n="11"/>
+						Yousef &amp; Rufail did not come
+						<lb n="12"/>
+						to me they are afraid
+						<lb n="13"/>
+						of the heat, they sent me
+						<lb n="14"/>
+						some Ice, also a plate of the
+						<lb n="15"/>
+						first dates in the Season
+						<lb n="16"/>
+						but not quite ripe yet;
+						<lb n="17"/>
+						I got my two new Tents
+						<lb n="18"/>
+						&amp; W. Closet from the Barge
+						<lb n="19"/>
+						Rezooki Angoorly cleared
+						<lb n="20"/>
+						them for me &amp; paid duty 112
+						<lb n="21"/>
+						G.S.P. &amp; other expences comes
+						<lb n="22"/>
+						to altogether to 125 G.S.P.
+						<lb n="23"/>
+					</p>
+					<p>
+						        The Malamir arrived at
+						<lb n="24"/>
+						11 P.M. from Mahomerah,
+						<lb n="25"/>
+						<pb n="10"/>
+					</p>
+					<p>
+						        The Persian Str. Mobile
+						<lb n="1"/>
+						came up from the quarantine
+						<lb n="2"/>
+						at about 12 AM;
+						<lb n="3"/>
+					</p>
+					<p>
+						        A new Doctor for the Residency
+						<lb n="4"/>
+						of Baghdad is going up with
+						<lb n="5"/>
+						us Called Surgeon Captain
+						<lb n="6"/>
+						W. Henvey~
+						<lb n="7"/>
+					</p>
+				</div2>
+			</div1>
+			<div1 n="2">
+				<head>
+					Basreh to Baghdad
+					<lb n="8"/>
+				</head>
+				<div2 n="1" part="F">
+					<p/>
+					<p>
+						        At 6.5 P.M. left Basreh,
+						<lb n="9"/>
+						ship is light, The atmosphere
+						<lb n="10"/>
+						is loaded with moisture, the
+						<lb n="11"/>
+						heat is intense, there is a light
+						<lb n="12"/>
+						S. Ely breeze but is dampy;
+						<lb n="13"/>
+						Rufail sent me some ice and
+						<lb n="14"/>
+						I am glad it refreshed us all
+						<lb n="15"/>
+						&amp; on the table too~ The
+						<lb n="16"/>
+						night became more intense
+						<lb n="17"/>
+						I was unable to sleep, all
+						<lb n="18"/>
+						my clothes and bed was so
+						<lb n="19"/>
+						wet through no breathing
+						<lb n="20"/>
+						I was suffocated, the water
+						<lb n="21"/>
+						as warm as tea, I was mad
+						<lb n="22"/>
+						&amp; so was every body restless
+						<lb n="23"/>
+						&amp; could not sleep at all
+						<lb n="24"/>
+						<pb n="11"/>
+						<lb n="1"/>
+					</p>
+					<p>
+						        The dew was falling heavily
+						<lb n="2"/>
+						Such a night in fact I have
+						<lb n="3"/>
+						not seen but once or twice
+						<lb n="4"/>
+						before; I have lost all strength
+						<lb n="5"/>
+						&amp; got so weak from the heat
+						<lb n="6"/>
+						&amp; perspiration,
+						<lb n="7"/>
+					</p>
+					<p>
+						        At 11,,45 landed 6 passengrs
+						<lb n="8"/>
+						at Gorna, went on at 12 took
+						<lb n="9"/>
+						2 passengers,~
+						<lb n="10"/>
+					</p>
+					<p>
+						        Very light S. Ely breeze and
+						<lb n="11"/>
+						heavy dew falling, still as
+						<lb n="12"/>
+						warm &amp; miserable as before
+						<lb n="13"/>
+						no change of weather~;
+						<lb n="14"/>
+						At 4,,5 AM passed Azair,
+						<lb n="15"/>
+						S. Ely breeze, my cabin is
+						<lb n="16"/>
+						boiling hot, clothes wet and
+						<lb n="17"/>
+						sticky, &amp; the warm water
+						<lb n="18"/>
+						is so nasty to wash with
+						<lb n="19"/>
+						or drink~
+						<lb n="20"/>
+					</p>
+					<p>
+						        Gave tickets &amp; finished
+						<lb n="21"/>
+						with the passengers, we
+						<lb n="22"/>
+						have in all 106 (one 1st Class
+						<lb n="23"/>
+						Dr. Henvey, &amp; 1 1/2 in 2d Class a
+						<lb n="24"/>
+						Jewess;)
+						<lb n="25"/>
+						<pb n="12"/>
+						<lb n="1"/>
+					</p>
+					<p>
+						        At 8,,50 landed 4 passengers
+						<lb n="2"/>
+						at Kalat Saleh &amp; some Grapes
+						<lb n="3"/>
+						went on at 9~
+						<lb n="4"/>
+					</p>
+					<p>
+						        At 9 the weather got little
+						<lb n="5"/>
+						dryer, &amp; better, the wind then
+						<lb n="6"/>
+						died away &amp; became calm,
+						<lb n="7"/>
+						but I can sit a little in my
+						<lb n="8"/>
+						cabin.~
+						<lb n="9"/>
+					</p>
+					<p>
+						        At 1,,40 P.M. arrived at
+						<lb n="10"/>
+						Amara landed 10 passengers,
+						<lb n="11"/>
+						also three Boxes weighing machine
+						<lb n="12"/>
+						for Lynch's Wool Press~
+						<lb n="13"/>
+					</p>
+					<p>
+						        At 2,,55 left Amara ,
+						<lb n="14"/>
+						We got Abdul Kadur Khdery
+						<lb n="15"/>
+						Aft 1st Class free, also Rustam
+						<lb n="16"/>
+						Effendi &amp; his wife Aft free
+						<lb n="17"/>
+						he is the Mudir of the Custum
+						<lb n="18"/>
+						House going to see his father
+						<lb n="19"/>
+						Sheikh Abdulrezack ibn
+						<lb n="20"/>
+						Sheikh Kader the head of
+						<lb n="21"/>
+						the Beledyeh who took ill
+						<lb n="22"/>
+						where we left Baghdad;
+						<lb n="23"/>
+					</p>
+					<p>
+						        Gave tickets to 37 Amara
+						<lb n="24"/>
+						passengers besides AbdulKadur
+						<lb n="25"/>
+						Khdery in 1st C. &amp; servant free
+						<lb n="26"/>
+						Rustam Effendi &amp; wife in
+						<lb n="27"/>
+						1st C. free~ It got very
+						<lb n="28"/>
+						<pb n="13"/>
+						<lb n="1"/>
+						hot after we left Amara
+						<lb n="2"/>
+						the wind died away and
+						<lb n="3"/>
+						became so fearfully hot &amp;
+						<lb n="4"/>
+						calm; the air is S. West &amp;
+						<lb n="5"/>
+						very light, at night it became
+						<lb n="6"/>
+						again moist, un till about
+						<lb n="7"/>
+						10 P.M. when the air Shifted
+						<lb n="8"/>
+						to N.W. &amp; became cooler I
+						<lb n="9"/>
+						slept so well &amp; enjoyed, not
+						<lb n="10"/>
+						having slept for two nights,
+						<lb n="11"/>
+					</p>
+					<p>
+						        Light N.W. wind &amp; fine
+						<lb n="12"/>
+						cool &amp; dry weather, We
+						<lb n="13"/>
+						feel ourselves as being in
+						<lb n="14"/>
+						paradise~ At 2 AM
+						<lb n="15"/>
+						arrived at Ali Gherbi went
+						<lb n="16"/>
+						alongside to Ship wool,
+						<lb n="17"/>
+						landed 2 passengers; Lovely
+						<lb n="18"/>
+						night fine &amp; cool weather,
+						<lb n="19"/>
+					</p>
+					<p>
+						        At 8.30 left Ali Gherbi
+						<lb n="20"/>
+						having Shipped 434 Bales of
+						<lb n="21"/>
+						wool &amp; 7 Bund sheep skins all
+						<lb n="22"/>
+						for H. Mehdi Shekerchi~
+						<lb n="23"/>
+					</p>
+					<p>
+						        We passed the SS. Phrat &amp; Barge
+						<lb n="24"/>
+						going down at midnight last
+						<lb n="25"/>
+						night~
+						<lb n="26"/>
+					</p>
+					<p>
+						        A Very hot wind begun
+						<lb n="27"/>
+						<pb n="14"/>
+						<lb n="1"/>
+						to blow strong at 9 AM. the
+						<lb n="2"/>
+						Thermotr. went up to 113° it is like
+						<lb n="3"/>
+						fire~ At 1 P.M. passed
+						<lb n="4"/>
+						Sheikh Saad ~ Toward Sunset
+						<lb n="5"/>
+						the wind begun to cool down
+						<lb n="6"/>
+						&amp; became very pleasant;
+						<lb n="7"/>
+					</p>
+					<p>
+						        At 7,,30 P.M. arrived at
+						<lb n="8"/>
+						Coot landed 19 passengers
+						<lb n="9"/>
+						&amp; 1 Bale;~ At 8,30 left
+						<lb n="10"/>
+						Coot; Strong N. W. Wind but
+						<lb n="11"/>
+						not cool yet; I had to sleep in my
+						<lb n="12"/>
+						Cabin from the strong wind and
+						<lb n="13"/>
+						many people Aft; Two 1st Class
+						<lb n="14"/>
+						passengers came at Coot, one
+						<lb n="15"/>
+						is Mostapha Pasha Farik who
+						<lb n="16"/>
+						is making his tour for the military
+						<lb n="17"/>
+						conscription &amp; an officer with
+						<lb n="18"/>
+						him &amp; 3 privates~
+						<lb n="19"/>
+					</p>
+					<p>
+						        Fresh wind from N.W. but
+						<lb n="20"/>
+						not cool; at 4 AM passed Memlah
+						<lb n="21"/>
+						Clouds on the East; Gave
+						<lb n="22"/>
+						tickets to 52 Coot passengers
+						<lb n="23"/>
+						including the 2 in 1st Class
+						<lb n="24"/>
+						Mostapha Pasha &amp; Fettah
+						<lb n="25"/>
+						Effendi an officer of Irkan Harb
+						<lb n="26"/>
+					</p>
+					<p>
+						        A strong wind blowing
+						<lb n="27"/>
+						<pb n="15"/>
+						<lb n="1"/>
+						with thick sand storms and
+						<lb n="2"/>
+						hot; touched a shoal at
+						<lb n="3"/>
+						Shedeif &amp; lost 10 minutes in
+						<lb n="4"/>
+						getting over,~
+						<lb n="5"/>
+					</p>
+					<p>
+						        At 8,,20 P.M. passed the
+						<lb n="6"/>
+						S.S. Baghdad at Anchor
+						<lb n="7"/>
+						below Azizieh, At 0,,25
+						<lb n="8"/>
+						landed some empty Bags
+						<lb n="9"/>
+						for Liquorice free of freight
+						<lb n="10"/>
+						at Azizieh (those we had
+						<lb n="11"/>
+						shipped down)&amp; went on
+						<lb n="12"/>
+						at 0,,30 P.M~
+						<lb n="13"/>
+					</p>
+					<p>
+						        At 4,,10 P.M. passed Baghdadieh
+						<lb n="14"/>
+						Fort, Strong N.W. Wind
+						<lb n="15"/>
+						It fell toward sunset but Kept
+						<lb n="16"/>
+						Cool~
+						<lb n="17"/>
+					</p>
+					<p>
+						        At 12 passed Ctesiphon
+						<lb n="18"/>
+						Modte N.W. &amp; fine cool weather
+						<lb n="19"/>
+						At 3.15 AM passed Diala
+						<lb n="20"/>
+						river~ At 4,35 landed
+						<lb n="21"/>
+						a Deckman at Gherrarah
+						<lb n="22"/>
+						with letters~
+						<lb n="23"/>
+					</p>
+					<p>
+						        At 5,15 passed the S.S.
+						<lb n="24"/>
+						Khalifah going down
+						<lb n="25"/>
+						<pb n="16"/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
+

@@ -1,0 +1,504 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TEI
+  SYSTEM 'http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd'>
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Insert Document Title Here</title>
+				<author>Insert Author Name Here</author>
+				<respStmt>
+					<resp>Insert Name of Project Responsible for Transcription</resp>
+					<name>Insert Name of Project Lead</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Insert Distributor Name Here</distributor>
+				<address>
+					<addrLine/>
+				</address>
+				<idno type="Insert Your Type Here">Insert ID Number Here</idno>
+				<availability>
+					<p>Insert Copyright Data Here</p>
+				</availability>
+				<date when="Insert Date Here">Insert Date Here</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Enter Bibliographical Information Here</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Insert Project Here</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<list>
+				<item>
+					<date when="Insert Date of Last Edit">Insert Date of Last Edit</date>
+					Last checked
+				</item>
+			</list>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 n="1">
+				<head/>
+				<div2 n="1" part="N">
+					<head/>
+					<head type="marginnote" xml:id="p18-1">
+						<emph content=" عودة ميخائيل ياغجي الى البصرة بعد اجاز 4 شهور."/>
+						 [The return of Michail Yaghchi to Basreh after a leave of 4 months]
+						
+					</head>
+					<head type="marginnote" xml:id="p18-10">
+						<emph content="وفاة عبد الرزاق رئيس البلدية ابن الشيخ قادر."/>
+						 [Arabic: The death of Abdulrezak the head of the municipality, the son of Sheikh Kader]
+						
+					</head>
+					<head type="marginnote" xml:id="p18-21">
+						<emph content=" وفاة پـري وكيل الپـانك العثماني."/>
+						 [Arabic: The death of Perry the Agent of the Ottoman Bank]
+						
+					</head>
+					<p>
+						<lb n="1"/>
+						Diary No. 40
+						<lb n="2"/>
+						I saw Michail Yaghchi
+						<lb n="3"/>
+						returning to Basreh to the
+						<lb n="4"/>
+						quarantine after his 4 months
+						<lb n="5"/>
+						leave, also the Mudir of the
+						<lb n="6"/>
+						Custom House of Basreh who
+						<lb n="7"/>
+						come up with us last trip
+						<lb n="8"/>
+						&amp; Mr. Lander of the Ottoman
+						<lb n="9"/>
+						Bank passenger~
+						<lb n="10"/>
+					</p>
+					<p>
+						        At 7 am. landed the mails at
+						<lb n="11"/>
+						the Residency &amp; went to the
+						<lb n="12"/>
+						Custom House; the S.S. Mossul
+						<lb n="13"/>
+						is alongside discharging,
+						<lb n="14"/>
+						we heard of the of the death here
+						<lb n="15"/>
+						yesterday morning of the
+						<lb n="16"/>
+						Reis el Beledyeh Abdulrezak
+						<lb n="17"/>
+						Son of Sheikh Kader, whose
+						<lb n="18"/>
+						son Rustum Effendi came
+						<lb n="19"/>
+						up with us from Amara
+						<lb n="20"/>
+						I went home saw Eliza
+						<lb n="21"/>
+						Alexander &amp; Tookyeh, all
+						<lb n="22"/>
+						well, I heard also here
+						<lb n="23"/>
+						of the death of Mr. Perry
+						<lb n="24"/>
+						the Agent of the Ottoman
+						<lb n="25"/>
+						bank at Basreh on Friday
+						<lb n="26"/>
+						it must be from heat
+						<lb n="27"/>
+						apoplexy, he was on
+						<lb n="28"/>
+						<lb n="29"/>
+						<lb n="30"/>
+						<lb n="31"/>
+						<lb n="32"/>
+						Diary No. 40
+						<lb n="33"/>
+						board of us with Mr. Johnston
+						<lb n="34"/>
+						just before we left Basreh
+						<lb n="35"/>
+						and was alright; some
+						<lb n="36"/>
+						people called; I took a cold
+						<lb n="37"/>
+						both &amp; feel better on it,
+						<lb n="38"/>
+						at 4 P.M. called on Shekoory
+						<lb n="39"/>
+						Sayegh &amp; his family, also
+						<lb n="40"/>
+						on Yacoob Eassayi &amp;
+						<lb n="41"/>
+						on Sister Aliza; came home
+						<lb n="42"/>
+						found Sister Emilia Alice
+						<lb n="43"/>
+						and Grzesiki~
+						<lb n="44"/>
+						The wind blew very hot
+						<lb n="45"/>
+						today, the Thermotre. went up
+						<lb n="46"/>
+						to 110° but the evening got
+						<lb n="47"/>
+						cool &amp; pleasant;
+						<lb n="48"/>
+						Light N.W. &amp; fine cool
+						<lb n="49"/>
+						morning~ at 7 Am. I
+						<lb n="50"/>
+						called on Menusha and
+						<lb n="51"/>
+						then came on board, I went
+						<lb n="52"/>
+						to the Mudeer &amp; got my Tents
+						<lb n="53"/>
+						permitted to be discharged
+						<lb n="54"/>
+						in Goffa &amp; sent home;
+						<lb n="55"/>
+						and gave him the Raftyeh
+						<lb n="56"/>
+						<pb n="18"/>
+					</p>
+					<head type="marginnote" xml:id="p19-16">
+						' 31 Tuesd
+						<lb n="1"/>
+						Diary No 40
+						<lb n="2"/>
+						which I had got at Balus
+						<lb n="3"/>
+						and paid the duty about
+						<lb n="4"/>
+						125 G. S. P. ~ The Mejidieh
+						<lb n="5"/>
+						is discharging wool alongside
+						<lb n="6"/>
+						&amp; the Mossul went out;
+						<lb n="7"/>
+						at 9 I went on shore to my house
+						<lb n="8"/>
+						Got the Tents &amp; opened them
+						<lb n="9"/>
+						I find the rather inferior
+						<lb n="10"/>
+						quality, but at all events they
+						<lb n="11"/>
+						are cheap;~
+						<lb n="12"/>
+					</head>
+					<p>
+						        The SS. Baghdad arrived at 9 1/2
+						<lb n="13"/>
+						AM ~ at 4 P.M. I called on
+						<lb n="14"/>
+						Sister Medula &amp; came home,
+						<lb n="15"/>
+						Johny called in the evening
+						<lb n="16"/>
+						Light N.W. &amp; fine weather
+						<lb n="17"/>
+						Light N. W. breeze &amp; fine,
+						<lb n="18"/>
+						at 7 am called on Mons.
+						<lb n="19"/>
+						Achille, found him the same
+						<lb n="20"/>
+						as before, I called on Antone
+						<lb n="21"/>
+						Marine, also went to see
+						<lb n="22"/>
+						Jeboory Asfar's wife she came
+						<lb n="23"/>
+						in this morning from the garden
+						<lb n="24"/>
+						to her her likeness &amp; her children's
+						<lb n="25"/>
+						also taken in Photography
+						<lb n="26"/>
+						<pb n="19"/>
+					</p>
+					<head type="marginnote" xml:id="p20-1">1894 July</head>
+					<head type="marginnote" xml:id="p20-21">
+						' Augst 1st  Wedn
+						<lb n="1"/>
+						Diary No 40
+						<lb n="2"/>
+						Antone &amp; I then came home
+						<lb n="3"/>
+						to show him my Tents, at
+						<lb n="4"/>
+						9 1/2 I came on board, the
+						<lb n="5"/>
+						Mejidieh is out &amp; the Mossul
+						<lb n="6"/>
+						is loading to leave tomorrow,
+						<lb n="7"/>
+						at 10 I went to the office
+						<lb n="8"/>
+						for some money; came home
+						<lb n="9"/>
+						at 11~ at 4 P.M. sent the big
+						<lb n="10"/>
+						Tent the Swiss cottage to Henry's
+						<lb n="11"/>
+						house to be pitched there and
+						<lb n="12"/>
+						to see it, Eliza Tookyeh Alexander
+						<lb n="13"/>
+						also Antone Marine and others
+						<lb n="14"/>
+						came, I found it very good
+						<lb n="15"/>
+						and large enough it is 14
+						<lb n="16"/>
+						by 12 feet the inside room
+						<lb n="17"/>
+						only besides the Bath room
+						<lb n="18"/>
+						and verandah all around;
+						<lb n="19"/>
+						We came home at 6~
+						<lb n="20"/>
+					</head>
+					<p>
+						        Light N.W. &amp; rather warm
+						<lb n="21"/>
+						&amp; calm~
+						<lb n="22"/>
+					</p>
+					<p>
+						        Light N.W. and fine morning,
+						<lb n="23"/>
+						at 7 am I came on board;
+						<lb n="24"/>
+						The S.S. Mossul &amp; Barge left
+						<lb n="25"/>
+					</p>
+					<p>
+						 this morning~
+						<lb n="26"/>
+						<pb n="20"/>
+					</p>
+					<head type="marginnote" xml:id="p21-15">
+						' 2d Thursd
+						<lb n="1"/>
+						Diary No 40
+						<lb n="2"/>
+						their wages for July, Rupee
+						<lb n="3"/>
+						at 24 &amp; Mejidy @ at 75 they
+						<lb n="4"/>
+						latter goes for 77 P. in the bazaar,
+						<lb n="5"/>
+					</head>
+					<p>
+						        At 11 went home, had a cold
+						<lb n="6"/>
+						water Bath; ~ weather not so
+						<lb n="7"/>
+						hot as there is some wind from
+						<lb n="8"/>
+						the N.W.~ since last trip my
+						<lb n="9"/>
+						pain in the stomach is gone
+						<lb n="10"/>
+						&amp; am still using the tonic
+						<lb n="11"/>
+						powder that Dr. Sunderg had
+						<lb n="12"/>
+						given me ~ It is strickmine~
+						<lb n="13"/>
+					</p>
+					<p>
+						        At 4 P.M. called on Sister Eliza
+						<lb n="14"/>
+						and then came home~
+						<lb n="15"/>
+					</p>
+					<p>
+						        Light N.W. &amp; fine weather
+						<lb n="16"/>
+						Light N.W. &amp; fine weather,
+						<lb n="17"/>
+						at 4 AM called on sister Eliza
+						<lb n="18"/>
+						&amp; then took Artin &amp; called
+						<lb n="19"/>
+						on Elias Serkis &amp; then came
+						<lb n="20"/>
+						on board; we are Shipping
+						<lb n="21"/>
+						wool &amp; other cargo, also
+						<lb n="22"/>
+						discharging; at 11 went
+						<lb n="23"/>
+						home, at 3 P.M. returned
+						<lb n="24"/>
+						on board gave Bills of Lading
+						<lb n="25"/>
+						&amp; shipping receipts for through
+						<lb n="26"/>
+						cargo etc~
+						<lb n="27"/>
+						<pb n="21"/>
+					</p>
+					<head type="marginnote" xml:id="p22-1">
+						1894 Augst 3 Frid
+						<lb n="1"/>
+						At 5 went home, Weather
+						<lb n="2"/>
+						calm &amp; air from N. Est all
+						<lb n="3"/>
+						the night;
+						<lb n="4"/>
+					</head>
+					<p>
+						        Light N. Ely &amp; fine; at 7 am
+						<lb n="5"/>
+						passed to sister Eliza &amp; took
+						<lb n="6"/>
+						Artin &amp; called on Eliza Erame
+						<lb n="7"/>
+						&amp; at 8 1/2 came on board,
+						<lb n="8"/>
+						at 9 went on shore; went
+						<lb n="9"/>
+						to the office to look for the Shortage
+						<lb n="10"/>
+						of the money still amounts to
+						<lb n="11"/>
+						about 1200 G. S. P.; came home
+						<lb n="12"/>
+						had a cold water Bath ~
+						<lb n="13"/>
+					</p>
+					<p>
+						        At 4 P.M. Eliza, Tookyeh &amp; I
+						<lb n="14"/>
+						went to Alice &amp; sister Emilia
+						<lb n="15"/>
+						I then took Artin my nephew
+						<lb n="16"/>
+						&amp; went to call on Rustum
+						<lb n="17"/>
+						Effendi the Mudir of Amara
+						<lb n="18"/>
+						Custum House who came
+						<lb n="19"/>
+						with us this time to condole
+						<lb n="20"/>
+						him on the death of his father
+						<lb n="21"/>
+						Sheikh Abdulrezack son of
+						<lb n="22"/>
+						Sheikh Kader, we returned
+						<lb n="23"/>
+						to Clements house &amp; took
+						<lb n="24"/>
+						Eliza Tookyeh &amp; Alexander
+						<lb n="25"/>
+						&amp; came home, Johny &amp;
+						<lb n="26"/>
+						Artin came with us &amp;
+						<lb n="27"/>
+						<pb n="22"/>
+					</p>
+					<head type="marginnote" xml:id="p23-6">' Satur 4</head>
+					<head type="marginnote" xml:id="p23-18">
+						Sund 5th
+						<lb n="1"/>
+						spent  the eveing ~
+						<lb n="2"/>
+						Light S. Westerly, but got
+						<lb n="3"/>
+						cooler later on &amp; goot Cool
+						<lb n="4"/>
+						during the night &amp; moon
+						<lb n="5"/>
+						2 days old;
+						<lb n="6"/>
+					</head>
+					<p>
+						        Light N.W. &amp; fine cool morning
+						<lb n="7"/>
+						at 7 am. I came on board,
+						<lb n="8"/>
+						we are getting a lot of passengers,
+						<lb n="9"/>
+						at 11 went to  breakfast &amp; returned
+						<lb n="10"/>
+						at 1 P.M; we shipped cargo &amp;
+						<lb n="11"/>
+						I gave tickets to about 200 passengers,
+						<lb n="12"/>
+						It got very warm &amp; calm in
+						<lb n="13"/>
+						the afternoon ~ at 6 1/4 P.M.
+						<lb n="14"/>
+						I left the ship ~ Weather
+						<lb n="15"/>
+						got cooler at night ~
+						<lb n="16"/>
+					</p>
+					<p>
+						        At about 12  P.M. the S.S.
+						<lb n="17"/>
+						Khalifah arrived ~
+						<lb n="18"/>
+					</p>
+					<p>
+						        Light N.W &amp; fine weather
+						<lb n="19"/>
+						at 3 1/2 am I came on
+						<lb n="20"/>
+						board ~ Ship is light
+						<lb n="21"/>
+						rowing about 115,000 Okes
+						<lb n="22"/>
+						cargo ~
+						<lb n="23"/>
+						<pb n="23"/>
+					</p>
+					<head type="marginnote" xml:id="p24-1">1894 Augst</head>
+					<head type="marginnote" xml:id="p24-12">
+						<emph content=" اختلاف في مرض المتوفى پـري"/>
+						 [-13: A conflict about the sikness of the deceased Perry]
+						
+					</head>
+					<head type="marginnote" xml:id="p24-23">
+						<emph content=" داورڄـيگاه"/>
+						 [Dawerzika]
+						
+						<pb n="24"/>
+					</head>
+					<head type="marginnote" xml:id="p25-23">
+						<emph content=" قائم مقام الحاج طالب افندي"/>
+						 [-25: Kaimakam el-Haj Taleb Effendi]
+						
+						<pb n="25"/>
+					</head>
+					<head type="marginnote" xml:id="p26-1">1894 Augst.</head>
+					<head type="marginnote" xml:id="p26-8">
+						6 Mond Ther @ 5. 82 Noon 94 4 P.M. 102
+						<pb n="26"/>
+					</head>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
+

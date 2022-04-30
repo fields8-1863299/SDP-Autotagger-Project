@@ -1,0 +1,978 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TEI
+  SYSTEM 'http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd'>
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Insert Document Title Here</title>
+				<author>Insert Author Name Here</author>
+				<respStmt>
+					<resp>Insert Name of Project Responsible for Transcription</resp>
+					<name>Insert Name of Project Lead</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Insert Distributor Name Here</distributor>
+				<address>
+					<addrLine/>
+				</address>
+				<idno type="Insert Your Type Here">Insert ID Number Here</idno>
+				<availability>
+					<p>Insert Copyright Data Here</p>
+				</availability>
+				<date when="Insert Date Here">Insert Date Here</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Enter Bibliographical Information Here</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Insert Project Here</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<list>
+				<item>
+					<date when="Insert Date of Last Edit">Insert Date of Last Edit</date>
+					Last checked
+				</item>
+			</list>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 n="1">
+				<head/>
+				<div2 n="1" part="N">
+					<head>7 Tuesd.</head>
+					<head type="marginnote" xml:id="p28-9">The @ 5. 78</head>
+					<head type="marginnote" xml:id="p28-15">
+						<emph content=" الآثار القديمة"/>
+						 [The old artifacts]
+						
+					</head>
+					<head type="marginnote" xml:id="p28-16">
+						<emph content=" التي وجدها"/>
+						 [that the Arabs found]
+						
+					</head>
+					<head type="marginnote" xml:id="p28-17">
+						<emph content=" الاعرب في"/>
+						 [found at]
+						
+					</head>
+					<head type="marginnote" xml:id="p28-18">
+						<emph content=" تلو"/>
+						 [Tellow]
+						
+					</head>
+					<p>
+						        At 0.30 am arrived at Amara
+						<lb n="1"/>
+						landed 44 1/2 passengers and
+						<lb n="2"/>
+						14 packages; There are no wool
+						<lb n="3"/>
+						ready for us to ship from
+						<lb n="4"/>
+						Lynch's Press, there are 260 Bales
+						<lb n="5"/>
+						which will be shipped by Khalifah
+						<lb n="6"/>
+						&amp; this is the last lot for the
+						<lb n="7"/>
+						season~ Dowd the Christian
+						<lb n="8"/>
+						man of business of Rufail Sayegh
+						<lb n="9"/>
+						came to me with an arab bringing
+						<lb n="10"/>
+						about 30 pieces of Tablets of
+						<lb n="11"/>
+						Terra Cotta but all in fragments
+						<lb n="12"/>
+						he had gone to Tellow on the
+						<lb n="13"/>
+						Hai where De Sarzec was lately
+						<lb n="14"/>
+						excavating, he had three large
+						<lb n="15"/>
+						Bags full of these concealed
+						<lb n="16"/>
+						among the ruins, but some
+						<lb n="17"/>
+						Soldiers had followed him
+						<lb n="18"/>
+						from Shetrah &amp; ceased the
+						<lb n="19"/>
+						whole lot &amp; confiscated them
+						<lb n="20"/>
+						So he could not get them
+						<lb n="21"/>
+						&amp; had to return with these
+						<lb n="22"/>
+						<lb n="23"/>
+						<lb n="24"/>
+						few broken ones which are
+						<lb n="25"/>
+						worthless~
+						<lb n="26"/>
+					</p>
+					<p>
+						        At 2,,30 am we left Amara
+						<lb n="27"/>
+						fine cool night, I had to
+						<lb n="28"/>
+						sleep in my cabin~ At 5,,45
+						<lb n="29"/>
+						passed Kalat Saleh, Took
+						<lb n="30"/>
+						5 passengers from Amara
+						<lb n="31"/>
+						and one from K. Saleh~
+						<lb n="32"/>
+					</p>
+					<p>
+						        At 8,,50 passed Azair~ X
+						<lb n="33"/>
+						Light N.W. &amp; fine cool weather,
+						<lb n="34"/>
+					</p>
+					<p>
+						        At 4,,10 P.M. arrived at
+						<lb n="35"/>
+						Basreh, only the mail Str-
+						<lb n="36"/>
+						Kapurthala here~ There are
+						<lb n="37"/>
+						only 365 packages cargo to Ship
+						<lb n="38"/>
+						by this mail steamer~
+						<lb n="39"/>
+					</p>
+					<p>
+						        The weather here they say
+						<lb n="40"/>
+						has been fine &amp; cool since
+						<lb n="41"/>
+						the 20th Ulto 3 days after we
+						<lb n="42"/>
+						had left Basreh last time,
+						<lb n="43"/>
+						there had been been no other
+						<lb n="44"/>
+						cases of sunstroke or heat
+						<lb n="45"/>
+						appoplexy since Mr. Perry
+						<lb n="46"/>
+						of the Ottoman Bank died
+						<lb n="47"/>
+						on the 27th  &amp; also the Doctor
+						<lb n="48"/>
+						of the SS. Gorgi of Darby Andrewes
+						<lb n="49"/>
+						and these two cases
+						<lb n="50"/>
+						<pb n="28"/>
+					</p>
+					<head type="marginnote" xml:id="p29-1">
+						<emph content=" الكوليرة"/>
+						 [The Cholera]
+						
+					</head>
+					<head type="marginnote" xml:id="p29-2">
+						<emph content=" (اختلاف فيها)"/>
+						 [(a conflict about it)]
+						
+					</head>
+					<head type="marginnote" xml:id="p29-26">
+						<emph content=" فليفلة"/>
+						 [Flefleh]
+						
+					</head>
+					<p>
+						        were first attributed to Cholera
+						<lb n="1"/>
+						as Dr. Dobbin (a young English
+						<lb n="2"/>
+						Doctor who has been here about
+						<lb n="3"/>
+						8 months ago) insisted that it
+						<lb n="4"/>
+						was, but it turned out a mistake,
+						<lb n="5"/>
+					</p>
+					<p>
+						        I went to Rufail's place at
+						<lb n="6"/>
+						the Huts at Rubat with Rezooki
+						<lb n="7"/>
+						Marine, also Michail Yaghchi
+						<lb n="8"/>
+						came (he had come down in
+						<lb n="9"/>
+						the Khalifah) he dined with
+						<lb n="10"/>
+						us &amp; went to Sleep at Asfar’s
+						<lb n="11"/>
+						home, where many others are
+						<lb n="12"/>
+						also sleeping there, Mr. Lander
+						<lb n="13"/>
+						who came down in the Khalifah
+						<lb n="14"/>
+						to replace Mr. Perry has received
+						<lb n="15"/>
+						orders to return with us, he
+						<lb n="16"/>
+						is living in Asfar's house;
+						<lb n="17"/>
+					</p>
+					<p>
+						        Weather got very calm with
+						<lb n="18"/>
+						very little dew, but the night
+						<lb n="19"/>
+						was not warm~
+						<lb n="20"/>
+					</p>
+				</div2>
+				<div2 n="2" part="I">
+					<head>8 Wedn</head>
+					<p>
+						        Light air from N.W., at
+						<lb n="21"/>
+						7 1/2 am I came on board,
+						<lb n="22"/>
+						The Baghdad left at 6 am
+						<lb n="23"/>
+						up river to tow down the
+						<lb n="24"/>
+						Ressafah from Flefleh her
+						<lb n="25"/>
+						shaft being broken down
+						<lb n="26"/>
+						<pb n="29"/>
+					</p>
+					<head type="marginnote" xml:id="p30-1">1894 Augst</head>
+					<p>
+						breeze got up from the N.W.
+						<lb n="1"/>
+					</p>
+					<p>
+						        At 1 P.M. the Malamir
+						<lb n="2"/>
+						arrived from the Karoon river,
+						<lb n="3"/>
+						Mr. Taylor is not here &amp; has
+						<lb n="4"/>
+						gone to Bushire by last
+						<lb n="5"/>
+						mail~ We finished the cargo
+						<lb n="6"/>
+						at 10 am~ We have very
+						<lb n="7"/>
+						few passengers~ The
+						<lb n="8"/>
+						weather is not so warm,
+						<lb n="9"/>
+						But at 3 P.M. it begun to
+						<lb n="10"/>
+						get calm &amp; warm; Rufail
+						<lb n="11"/>
+						Michail Yaghchi, Rezooki
+						<lb n="12"/>
+						&amp; others called on board until
+						<lb n="13"/>
+						we left~ The Mossul
+						<lb n="14"/>
+						is ready to leave only
+						<lb n="15"/>
+						herself without a Barge
+						<lb n="16"/>
+						to take up the Barge of the
+						<lb n="17"/>
+						Ressaffah from Flefleh
+						<lb n="18"/>
+						but is waiting for us;
+						<lb n="19"/>
+					</p>
+					<p>
+						        Dates have commenced
+						<lb n="20"/>
+						to get ripe since few days
+						<lb n="21"/>
+						ago~
+						<lb n="22"/>
+						<pb n="30"/>
+					</p>
+				</div2>
+			</div1>
+			<div1 n="2">
+				<head>
+					Basreh to Baghdad
+					<lb n="1"/>
+				</head>
+				<div2 n="2" part="F">
+					<p>
+						<lb n="2"/>
+					</p>
+					<p>
+						        At 5,,10 P.M. left Basreh
+						<lb n="3"/>
+						ship is drawing 3 feet;
+						<lb n="4"/>
+						The Mossul left about 15
+						<lb n="5"/>
+						minutes after us~ Light
+						<lb n="6"/>
+						N.W. breeze; It became very calm
+						<lb n="7"/>
+						&amp; moisty, the cabin is unbearable
+						<lb n="8"/>
+						from the heat; it was like
+						<lb n="9"/>
+						last trip up very nearly, had
+						<lb n="10"/>
+						the breeze not been from N.W.
+						<lb n="11"/>
+						It remained so moisty and
+						<lb n="12"/>
+						warm till 9 P.M. when
+						<lb n="13"/>
+						the breeze begun to get little
+						<lb n="14"/>
+						dryer,~
+						<lb n="15"/>
+					</p>
+					<p>
+						        [space] at 11 landed one passenger
+						<lb n="16"/>
+						at Gorna &amp; went on at 11.5
+						<lb n="17"/>
+						weather became cooler &amp;
+						<lb n="18"/>
+						I could sleep then better
+						<lb n="19"/>
+					</p>
+				</div2>
+				<div2 n="3" part="N">
+					<head>9 Thursd.</head>
+					<p>
+						        Light N.W. &amp; fine cool morning
+						<lb n="20"/>
+					</p>
+					<p>
+						        At 3.5 am passed Azair,
+						<lb n="21"/>
+						Finished with the passengers
+						<lb n="22"/>
+						We have in all 82 Deck
+						<lb n="23"/>
+						none in cabins~ No one
+						<lb n="24"/>
+						overhauled the passengers~
+						<lb n="25"/>
+						<pb n="31"/>
+					</p>
+					<head type="marginnote" xml:id="p32-1">1894 Augst</head>
+					<p>
+						At 7.35 landed 3 passengers
+						<lb n="1"/>
+						at Kalat Saleh and went on;
+						<lb n="2"/>
+					</p>
+					<p>
+						        At 0,,30 P.M. arrived at Amara
+						<lb n="3"/>
+						landed 12 passengers~
+						<lb n="4"/>
+						Very strong wind is blowing,
+						<lb n="5"/>
+						we shipped about 30 packages
+						<lb n="6"/>
+						of wool etc;
+						<lb n="7"/>
+					</p>
+					<p>
+						        At 1.30 P.M. left Amara;
+						<lb n="8"/>
+						took 30 passengers and 12
+						<lb n="9"/>
+						men the workers at Lynch's Press
+						<lb n="10"/>
+						including Jejo Moorad the
+						<lb n="11"/>
+						Clerk and Rezooki Georgis the Engineer
+						<lb n="12"/>
+						all free to Baghdad having
+						<lb n="13"/>
+						finished with the wool
+						<lb n="14"/>
+						pressing, also 6 men
+						<lb n="15"/>
+						wool pickers etc of Shahbender
+						<lb n="16"/>
+						and Meer Gorgi free in all
+						<lb n="17"/>
+						we took 48 passengers
+						<lb n="18"/>
+					</p>
+					<p>
+						        Modte N.W. wind and fine
+						<lb n="19"/>
+						at 7.30 P.M. passed Ali Sherghi,
+						<lb n="20"/>
+						fine moon light night 8 days
+						<lb n="21"/>
+						old;~ The wind was too strong
+						<lb n="22"/>
+						I was obliged to go into my cabin
+						<lb n="23"/>
+						at 12 P.M. ~
+						<lb n="24"/>
+						<pb n="32"/>
+					</p>
+					<head type="marginnote" xml:id="p33-1">10 Frid</head>
+					<head type="marginnote" xml:id="p33-3">The 5. 84 Noon 96 4 P.M. 102</head>
+					<head type="marginnote" xml:id="p33-23">The. @ 5.78 Noon 93 4 P.M. 98</head>
+					<p>
+						        [space] At 0,,40 AM. landed one
+						<lb n="1"/>
+						passenger at Ali Gherbi &amp;
+						<lb n="2"/>
+						went on at 1 AM.; Strong
+						<lb n="3"/>
+						N.W. wind blowing out not
+						<lb n="4"/>
+						cool ~ At 5,,45 passed
+						<lb n="5"/>
+						Sheikh Saad~
+						<lb n="6"/>
+					</p>
+					<p>
+						        [space] At 12 AM arrived at
+						<lb n="7"/>
+						Coot landed 8 passengers,
+						<lb n="8"/>
+					</p>
+					<p>
+						        [space] At 1 P.M. left Coot, shipped
+						<lb n="9"/>
+						9 Bales wool, &amp; 92 1/2 passengers
+						<lb n="10"/>
+						(one in 1st Class the wife of
+						<lb n="11"/>
+						Yousef Eassayi and her 4 young
+						<lb n="12"/>
+						children)~ Fresh wind
+						<lb n="13"/>
+						from N.W. &amp; pleasant weather,
+						<lb n="14"/>
+					</p>
+					<p>
+						        [space] At 8,,5 P.M. passed Memlah
+						<lb n="15"/>
+						Modte N.W. and fine cool night;
+						<lb n="16"/>
+						[space]         At 12 touched at the upper
+						<lb n="17"/>
+						part of Shedeiff &amp; got off after
+						<lb n="18"/>
+						10 minutes~
+						<lb n="19"/>
+					</p>
+				</div2>
+				<div2 n="4" part="N">
+					<head>11 Satur</head>
+					<p>
+						[space] At 0.30 AM. touched again
+						<lb n="20"/>
+						sent the Pilot to sound and
+						<lb n="21"/>
+						till 3 AM when we got
+						<lb n="22"/>
+						over though an other channel
+						<lb n="23"/>
+						and proceeded~
+						<lb n="24"/>
+						<pb n="33"/>
+					</p>
+					<head type="marginnote" xml:id="p34-1">
+						1894 Augst
+						<lb n="1"/>
+						Weather very fine cool, I
+						<lb n="2"/>
+						slept in the cabin &amp; found
+						<lb n="3"/>
+						very cool; Modte N.W.
+						<lb n="4"/>
+						breeze blowing~ At 6,,20
+						<lb n="5"/>
+						landed the empty Bags of
+						<lb n="6"/>
+						the Liquorice at Azizieh
+						<lb n="7"/>
+						and went on at 6.30~
+						<lb n="8"/>
+					</head>
+					<p>
+						        [space] At 9.45 passed Baghdadieh
+						<lb n="9"/>
+						Fort~
+						<lb n="10"/>
+					</p>
+					<p>
+						        [space] At 3.30 P.M. passed Bostan,
+						<lb n="11"/>
+						Light N.W. breeze &amp; fine weather
+						<lb n="12"/>
+					</p>
+					<p>
+						        [space] At 5.30 passed Ctesiphon
+						<lb n="13"/>
+						At 7,,40 passed Diala,
+						<lb n="14"/>
+						Light N.W. &amp; fine cool night
+						<lb n="15"/>
+					</p>
+					<p>
+						        [space] At 10.55 landed the
+						<lb n="16"/>
+						mails at the Residency;
+						<lb n="17"/>
+						I landed too &amp; went home,
+						<lb n="18"/>
+						found Eliza, Alexander and Tookyeh
+						<lb n="19"/>
+						all well,~ There are lots of
+						<lb n="20"/>
+						fever, diarrhea &amp; indigestion
+						<lb n="21"/>
+						among the people here, it
+						<lb n="22"/>
+						must be from the cold wind
+						<lb n="23"/>
+						at night, &amp; the indulgance
+						<lb n="24"/>
+						in fruit eating etc etc,
+						<lb n="25"/>
+						<pb n="34"/>
+					</p>
+					<head type="marginnote" xml:id="p35-9">
+						<emph content=" مرور سنة على وفاة نعوم سركيس (والدي)"/>
+						 [A year passed since the death of Naoom Serkis (my father)]
+						
+					</head>
+					<head type="marginnote" xml:id="p35-16">
+						<emph content=" اسكندر زفوبودا في استانبول وخبر الزلزلة"/>
+						 [Iskender Svoboda in Istanbul, and the news of the earthquake]
+						
+						<pb n="35"/>
+					</head>
+					<head type="marginnote" xml:id="p36-1">1894 Augt</head>
+					<p>
+						all well &amp; they are encamped
+						<lb n="1"/>
+						in the garden of Petit Champs
+						<lb n="2"/>
+						(which I know well) opposite
+						<lb n="3"/>
+						their Hotel of Pera called
+						<lb n="4"/>
+						Hotel de Bristol et de Londres,
+						<lb n="5"/>
+						great damage has been
+						<lb n="6"/>
+						done in the town, mosques
+						<lb n="7"/>
+						houses, streets &amp; palaces
+						<lb n="8"/>
+						fell down &amp; ruined and
+						<lb n="9"/>
+						great loss of property and
+						<lb n="10"/>
+						people crushed~
+						<lb n="11"/>
+					</p>
+				</div2>
+				<div2 n="5" part="N">
+					<head>' 13 Mond.</head>
+					<p>
+						        Light N.W. &amp; fine cool
+						<lb n="12"/>
+						morning; At 7 am I
+						<lb n="13"/>
+						called on Menusha Henry's
+						<lb n="14"/>
+						Wife &amp; then came on
+						<lb n="15"/>
+						board~ The S.S. Phrat left
+						<lb n="16"/>
+						this morning at 5 AM~
+						<lb n="17"/>
+						I went home at 10~ I feel
+						<lb n="18"/>
+						unwell my stomach is very
+						<lb n="19"/>
+						weak &amp; feel very billious~
+						<lb n="20"/>
+						Johny called in the evening,
+						<lb n="21"/>
+					</p>
+					<p>
+						        [space] The S.S. Mossul &amp; Barge
+						<lb n="22"/>
+						arrived at about 12 AM.
+						<lb n="23"/>
+					</p>
+					<p>
+						        Weather got warm in the
+						<lb n="24"/>
+						evening &amp; a light S. Ely
+						<lb n="25"/>
+						<pb n="36"/>
+					</p>
+					<head type="marginnote" xml:id="p37-6">The @ 5. 76</head>
+					<head type="marginnote" xml:id="p37-18">
+						<emph content=" منع تداول الروپية"/>
+						 [Prohibition of circulating the Rupees]
+						
+					</head>
+					<p>
+						breeze or rather, calm, but
+						<lb n="1"/>
+						at 9 P.m. it shifted to N.W.
+						<lb n="2"/>
+						by west &amp; became cool;
+						<lb n="3"/>
+					</p>
+				</div2>
+				<div2 n="6" part="N">
+					<head>14 Tuesd.</head>
+					<p>
+						        [space] Light N.W. &amp; fine cool morning
+						<lb n="4"/>
+						at 7 1/2 am I called on Antone
+						<lb n="5"/>
+						Marine there came Jeboory
+						<lb n="6"/>
+						Asfar &amp; his wife &amp; children,
+						<lb n="7"/>
+						they had just come in from
+						<lb n="8"/>
+						the garden to spend tomorrow
+						<lb n="9"/>
+						in town being a Holy day of
+						<lb n="10"/>
+						the Virgin ~ at 9 I came
+						<lb n="11"/>
+						on board, Sent money to
+						<lb n="12"/>
+						the office; I had to send the money
+						<lb n="13"/>
+						down in the ship's boat with Metty
+						<lb n="14"/>
+						to a beach where Hamadi received
+						<lb n="15"/>
+						it &amp; took it to the office, as the
+						<lb n="16"/>
+						Custom House would not permit
+						<lb n="17"/>
+						any Rupees to be passed into
+						<lb n="18"/>
+						town for circulation it has
+						<lb n="19"/>
+						been prohibited since two months,
+						<lb n="20"/>
+						and the most coin in circulation
+						<lb n="21"/>
+						here is the Rupee which is
+						<lb n="22"/>
+						still worth 24 R. Piasters ~
+						<lb n="23"/>
+					</p>
+					<p>
+						        I went home at 11 ~ Had a bath
+						<lb n="24"/>
+						of cold water ~
+						<lb n="25"/>
+					</p>
+					<p>
+						        Artin called in the
+						<lb n="26"/>
+						evening ~ Light N.W. and
+						<lb n="27"/>
+						<pb n="37"/>
+					</p>
+					<head type="marginnote" xml:id="p38-1">1894 Augst</head>
+					<p>
+						fine cool night.
+						<lb n="1"/>
+					</p>
+					<p>
+						        Modte N.W. &amp; fine cool weather
+						<lb n="2"/>
+						Today is a Holy day of the Assension
+						<lb n="3"/>
+						of the Virgin Mary ~ I went
+						<lb n="4"/>
+					</p>
+				</div2>
+				<div2 n="7" part="N">
+					<head>' 15 Wedn.</head>
+					<p>
+						to the Latin church &amp; then called
+						<lb n="5"/>
+						on Mons Achille, Adoola and
+						<lb n="6"/>
+						Eliza my cousins, on Asfar
+						<lb n="7"/>
+						where I saw Jeboory &amp; his
+						<lb n="8"/>
+						wife, Apikyan, Catterina
+						<lb n="9"/>
+						Yaghchi, sister Eliza, Menusha
+						<lb n="10"/>
+						SheKoory Sayegh &amp; Tanton,
+						<lb n="11"/>
+						many people called to wish Tookyeh
+						<lb n="12"/>
+						a happy returns of her Holy day,
+						<lb n="13"/>
+						At 4 p.m. called on Shemoony
+						<lb n="14"/>
+						Ghorghis Tessy, on Yacoob Pehlawan
+						<lb n="15"/>
+						&amp; on Hannosh Tessy's son Yousef,
+						<lb n="16"/>
+						Jeboory Asfar, Anton &amp; his
+						<lb n="17"/>
+						wife &amp; children, Artin Apykyan
+						<lb n="18"/>
+						&amp; others called on us ~
+						<lb n="19"/>
+					</p>
+					<p>
+						        Modte N.W. &amp; fine cool
+						<lb n="20"/>
+						weather ~
+						<lb n="21"/>
+					</p>
+				</div2>
+				<div2 n="8" part="N">
+					<head>16 Thursd</head>
+					<p>
+						        Modte N.W. wind &amp; fine;
+						<lb n="22"/>
+						at 7 am called on Sister Eliza
+						<lb n="23"/>
+						&amp; then came on board,
+						<lb n="24"/>
+						The Mossul hauled out &amp;
+						<lb n="25"/>
+						the Mejidieh went alongside
+						<lb n="26"/>
+						<pb n="38"/>
+					</p>
+					<head type="marginnote" xml:id="p39-11">The @ 5. 78</head>
+					<p>
+						to load ~ We shipped
+						<lb n="1"/>
+						some cargo wool etc &amp; 600
+						<lb n="2"/>
+						Bags of wheat of Muir Tweedy
+						<lb n="3"/>
+						at 11 went home &amp; returned
+						<lb n="4"/>
+						at 2 P.m. ~ At 5 1/2 went home
+						<lb n="5"/>
+						weather fine &amp; light N.W.
+						<lb n="6"/>
+						breeze ~
+						<lb n="7"/>
+					</p>
+				</div2>
+				<div2 n="9" part="N">
+					<head>' 17 Frid</head>
+					<p>
+						        Light N.W. &amp; fine cool weather,
+						<lb n="8"/>
+						at 4 am we were up, we
+						<lb n="9"/>
+						are to ride out to Gherrara
+						<lb n="10"/>
+						to find a place where we
+						<lb n="11"/>
+						can encamp this autumn,
+						<lb n="12"/>
+						at 4 3/4 Eliza, Alexander,
+						<lb n="13"/>
+						Tookyeh also Menusha
+						<lb n="14"/>
+						Henry's wife &amp; Louisa, Artin
+						<lb n="15"/>
+						my nephew &amp; Alice my
+						<lb n="16"/>
+						niece rode out, the weather
+						<lb n="17"/>
+						is very fine &amp; cool but
+						<lb n="18"/>
+						the dust flying about
+						<lb n="19"/>
+						from the beasts is awful,
+						<lb n="20"/>
+						we went as far as the
+						<lb n="21"/>
+						Bridge below Gherrarah
+						<lb n="22"/>
+						&amp; came back along the
+						<lb n="23"/>
+						river to Michail Mina's
+						<lb n="24"/>
+						property near a grove
+						<lb n="25"/>
+						<pb n="39"/>
+					</p>
+					<head type="marginnote" xml:id="p40-1">1894 Augst</head>
+					<p>
+						of Poplar, we found good
+						<lb n="1"/>
+						place where Johnston was
+						<lb n="2"/>
+						encamped last year, also
+						<lb n="3"/>
+						above it near the grove,
+						<lb n="4"/>
+						we then returned to town
+						<lb n="5"/>
+						&amp; got to our house by 8 1/4
+						<lb n="6"/>
+						am ~ at 9 I came on
+						<lb n="7"/>
+						board; ~ at 10 1/2 went home
+						<lb n="8"/>
+						took a cold bath; at 3 P.M.
+						<lb n="9"/>
+						called on Alice &amp; Sister Emilia.
+						<lb n="10"/>
+						at 6 P.m. Blockey &amp; his wife
+						<lb n="11"/>
+						called on us, also Johny
+						<lb n="12"/>
+						&amp; Artin ~
+						<lb n="13"/>
+					</p>
+					<p>
+						        [space] Weather commenced to
+						<lb n="14"/>
+						get little cloudy, some clouds
+						<lb n="15"/>
+						appeared on the East and
+						<lb n="16"/>
+						gradually spred up during
+						<lb n="17"/>
+						the night ~ Wind N.W.
+						<lb n="18"/>
+						&amp; cool ~
+						<lb n="19"/>
+					</p>
+				</div2>
+				<div2 n="10" part="N">
+					<head>' 18 Satur</head>
+					<p>
+						        [space] Light S.W. &amp; Cloudy in patches
+						<lb n="20"/>
+						over &amp; on the Eastern parts,
+						<lb n="21"/>
+						at 7 am called on Menusha
+						<lb n="22"/>
+						&amp; came on board ~
+						<lb n="23"/>
+						We are shipping wool;
+						<lb n="24"/>
+					</p>
+					<p>
+						        At 11.10 am the S.S. Mossul
+						<lb n="25"/>
+						<pb n="40"/>
+					</p>
+					<p>
+						&amp; Barge left [PAGE TORN]
+						<lb n="1"/>
+						laden with cargo &amp; few passengers,
+						<lb n="2"/>
+						at 11 1/2 I went home to breakfast
+						<lb n="3"/>
+						&amp; returned at 1 1/2 P.M. ~ weather
+						<lb n="4"/>
+						warm with some clouds;
+						<lb n="5"/>
+						we shipped about 109,000 Okes
+						<lb n="6"/>
+						cargo &amp; having few passengers
+						<lb n="7"/>
+					</p>
+					<p>
+						        At 5 3/4 P.M. went home
+						<lb n="8"/>
+						with Alexander ~ Light
+						<lb n="9"/>
+						N.W. breeze &amp; still cloudy
+						<lb n="10"/>
+						all around ~
+						<lb n="11"/>
+					</p>
+				</div2>
+				<div2 n="11" part="I">
+					<head>19 Sund</head>
+					<p>
+						        [space] Modte N.W. &amp; Clouds still
+						<lb n="12"/>
+						hanging on; at 3 1/4 am
+						<lb n="13"/>
+						I came on board ~
+						<lb n="14"/>
+					</p>
+				</div2>
+			</div1>
+			<div1 n="3">
+				<head>
+					Baghdad to Basreh
+					<lb n="15"/>
+				</head>
+				<div2 n="11" part="F">
+					<p/>
+					<p>
+						        [space] At 4,,5 am got underway;
+						<lb n="16"/>
+						weather cloudy a little &amp; a
+						<lb n="17"/>
+						fresh N.W. wind; having
+						<lb n="18"/>
+						over 108,000 Okes of cargo on
+						<lb n="19"/>
+						board ~
+						<lb n="20"/>
+					</p>
+					<p>
+						        [space] At 6,,10 passed Diala
+						<lb n="21"/>
+						river ~ At 6,,50 grounded
+						<lb n="22"/>
+						near the Island of Zumbaranyeh
+						<lb n="23"/>
+						took out an anchor aft &amp;
+						<lb n="24"/>
+						hove off, sounded also, at
+						<lb n="25"/>
+						<pb n="41"/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
+

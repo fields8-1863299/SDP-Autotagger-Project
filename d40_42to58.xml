@@ -1,0 +1,1158 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TEI
+  SYSTEM 'http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd'>
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Insert Document Title Here</title>
+				<author>Insert Author Name Here</author>
+				<respStmt>
+					<resp>Insert Name of Project Responsible for Transcription</resp>
+					<name>Insert Name of Project Lead</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Insert Distributor Name Here</distributor>
+				<address>
+					<addrLine/>
+				</address>
+				<idno type="Insert Your Type Here">Insert ID Number Here</idno>
+				<availability>
+					<p>Insert Copyright Data Here</p>
+				</availability>
+				<date when="Insert Date Here">Insert Date Here</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Enter Bibliographical Information Here</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Insert Project Here</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<list>
+				<item>
+					<date when="Insert Date of Last Edit">Insert Date of Last Edit</date>
+					Last checked
+				</item>
+			</list>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div1 n="1">
+				<head/>
+				<div2 n="1" part="N">
+					<head/>
+					<head type="marginnote" xml:id="p43-1">1894</head>
+					<head type="marginnote" xml:id="p43-2">Augt</head>
+					<p>
+						<lb n="1"/>
+						Diary No 40
+						<lb n="2"/>
+						7,,25 proceeded,
+						<lb n="3"/>
+					</p>
+					<p>
+						        At 7,,55 passed the Khalifah
+						<lb n="4"/>
+						going up, she looks deep,
+						<lb n="5"/>
+						Mr. Lander belonging to the
+						<lb n="6"/>
+						Ottoman bank is on board,
+						<lb n="7"/>
+					</p>
+					<p>
+						        At 8,,15 passed Ctesiphon
+						<lb n="8"/>
+						Finished with the passengers
+						<lb n="9"/>
+						We have altogether 116 ½
+						<lb n="10"/>
+						(2 in 2d class only Abduulahad
+						<lb n="11"/>
+						Dellal &amp; his wife) also 5
+						<lb n="12"/>
+						others with free tickets by
+						<lb n="13"/>
+						Mr. Clarke and 2 by Captn.
+						<lb n="14"/>
+						Cowley ~
+						<lb n="15"/>
+					</p>
+					<p>
+						        At 0,,30 P.M. landed 6 packages
+						<lb n="16"/>
+						at Jezireh &amp; a passenger who
+						<lb n="17"/>
+						had no money and went on
+						<lb n="18"/>
+						at 0,,35 ~
+						<lb n="19"/>
+					</p>
+					<p>
+						        At 1.30 passed Baghdadieh,
+						<lb n="20"/>
+						Fort; At 2.39 grounded
+						<lb n="21"/>
+						at Rmelat, hove her off with
+						<lb n="22"/>
+						an anchor astern &amp; went
+						<lb n="23"/>
+						on at 3,,5~
+						<lb n="24"/>
+					</p>
+					<p>
+						        At 4,10 P.M. arrived at Azizieh
+						<lb n="25"/>
+						landed two passengers we
+						<lb n="26"/>
+						went alongside the bank
+						<lb n="27"/>
+						<lb n="28"/>
+						<lb n="29"/>
+						<lb n="30"/>
+						<lb n="31"/>
+						Diary No 40
+						<lb n="32"/>
+						to ship Bags of Liquorice
+						<lb n="33"/>
+						Roots; Having shipped 350
+						<lb n="34"/>
+						Bags (300 of Abdulghany Khdery
+						<lb n="35"/>
+						&amp; 50 of Zerlendi) Left Azizieh
+						<lb n="36"/>
+						at 5,,30, I received here
+						<lb n="37"/>
+						a letter from Henry left
+						<lb n="38"/>
+						with Constantine Firos
+						<lb n="39"/>
+						who is collecting Liquorice for
+						<lb n="40"/>
+						Zerlendi, dated yesterday,
+						<lb n="41"/>
+						he says the Khalifah has
+						<lb n="42"/>
+						153,000 Okes and 230 passengers
+						<lb n="43"/>
+						&amp; he has left my Papers and
+						<lb n="44"/>
+						letters at Coot;
+						<lb n="45"/>
+					</p>
+					<p>
+						        Light N.W. Air &amp; warm
+						<lb n="46"/>
+						weather;
+						<lb n="47"/>
+					</p>
+					<p>
+						        At 7,,50 anchored at
+						<lb n="48"/>
+						Shedeif &amp; sent to sound the
+						<lb n="49"/>
+						Channel; Light N.W. &amp; fine
+						<lb n="50"/>
+						Cool night, with few clouds;
+						<lb n="51"/>
+						The Mossul with the Barge is
+						<lb n="52"/>
+						aground here on the shoal, she
+						<lb n="53"/>
+						is bound down; our Pilot returned
+						<lb n="54"/>
+						could not find the Channel
+						<lb n="55"/>
+						We remained at Anchor for
+						<lb n="56"/>
+						the night; Very cool Weather
+						<lb n="57"/>
+						<pb n="43"/>
+					</p>
+					<head type="marginnote" xml:id="p44-1">1894</head>
+					<head type="marginnote" xml:id="p44-2">August</head>
+					<head type="marginnote" xml:id="p44-4">20</head>
+					<head type="marginnote" xml:id="p44-5">Mond</head>
+					<head type="marginnote" xml:id="p44-6">
+						Therr @ 5. 78
+						<lb n="1"/>
+						Diary No 40
+						<lb n="2"/>
+					</head>
+					<p>
+						        Light N.W. and Cool morning,
+						<lb n="3"/>
+						with some clouds; Pilot went
+						<lb n="4"/>
+						to sound early &amp; returned at
+						<lb n="5"/>
+						6 ½ having marked the
+						<lb n="6"/>
+						Channel; at 6,,50 am
+						<lb n="7"/>
+						we proceeded from Shedeif
+						<lb n="8"/>
+						&amp; steamed over the shoal
+						<lb n="9"/>
+						without grounding; left
+						<lb n="10"/>
+						the Mossul there ~
+						<lb n="11"/>
+					</p>
+					<p>
+						        At 8,,45 passed the S.S. Baghdad
+						<lb n="12"/>
+						&amp; Barge going up~
+						<lb n="13"/>
+					</p>
+					<p>
+						        At 9,50 passed Memlah;
+						<lb n="14"/>
+						At 2,,20 P.M. arrived at Coot
+						<lb n="15"/>
+						landed 29 passengers and
+						<lb n="16"/>
+						59 packages; Fresh wind
+						<lb n="17"/>
+						from N.W. blowing; It took
+						<lb n="18"/>
+						us ½ hour to get alongside
+						<lb n="19"/>
+						we had to steam down and
+						<lb n="20"/>
+						turn round &amp; came up, as
+						<lb n="21"/>
+						she could not go alongside
+						<lb n="22"/>
+						by the stern anchor the
+						<lb n="23"/>
+						current &amp; wind were too
+						<lb n="24"/>
+						strong; I received my
+						<lb n="25"/>
+						papers &amp; letters left here
+						<lb n="26"/>
+						by Henry~
+						<lb n="27"/>
+						<pb n="44"/>
+					</p>
+					<head type="marginnote" xml:id="p45-9">21</head>
+					<head type="marginnote" xml:id="p45-10">Tuesd.</head>
+					<head type="marginnote" xml:id="p45-11">
+						The @ 5.76
+						<lb n="1"/>
+						Diary No 40
+						<lb n="2"/>
+					</head>
+					<p>
+						        At 3,,55 left Coot, took
+						<lb n="3"/>
+						23 passengers;
+						<lb n="4"/>
+					</p>
+					<p>
+						        At 7,,55 landed one passenger
+						<lb n="5"/>
+						at Sheikh Saad &amp; went on at 8;
+						<lb n="6"/>
+						Mofte N.W. breeze &amp; fine;
+						<lb n="7"/>
+					</p>
+					<p>
+						        At 11,10 landed 7 passengers
+						<lb n="8"/>
+						at Ali Gherbi &amp; took 10 went
+						<lb n="9"/>
+						on at 11,,15 ~
+						<lb n="10"/>
+					</p>
+					<p>
+						        Modte N.W. &amp; Cool Weather;
+						<lb n="11"/>
+						I found it very Cool on the quarter
+						<lb n="12"/>
+						Deck, &amp; have caught cold on
+						<lb n="13"/>
+						my neck &amp; chest are very Sore;
+						<lb n="14"/>
+						Few clouds are still on the
+						<lb n="15"/>
+						horyzon~
+						<lb n="16"/>
+					</p>
+					<p>
+						        At 7,15 AM arrived at
+						<lb n="17"/>
+						Amara landed 25 passengers
+						<lb n="18"/>
+						and 23 packages; Shipped 80
+						<lb n="19"/>
+						Bales of wool from Lynch's
+						<lb n="20"/>
+						Press for Marseilles~
+						<lb n="21"/>
+						At 8,50 left Amara took
+						<lb n="22"/>
+						12 passengers~
+						<lb n="23"/>
+					</p>
+					<p>
+						        At 3 PM landed
+						<lb n="24"/>
+						4 passengers at Azair and
+						<lb n="25"/>
+						went on;
+						<lb n="26"/>
+					</p>
+					<p>
+						        At 3,,45 passed the S.S.
+						<lb n="27"/>
+						<pb n="45"/>
+					</p>
+					<head type="marginnote" xml:id="p46-1">1894</head>
+					<head type="marginnote" xml:id="p46-2">
+						Augst
+						<lb n="1"/>
+						Diary No 40
+						<lb n="2"/>
+						Phrat &amp; Barge bound up
+						<lb n="3"/>
+						weather got very hot, and
+						<lb n="4"/>
+						the wind fell, the sun got very
+						<lb n="5"/>
+						hot;
+						<lb n="6"/>
+					</head>
+					<p>
+						        At 5,,55 landed 5 ½
+						<lb n="7"/>
+						passengers &amp; 23 packages at
+						<lb n="8"/>
+						Gorna &amp; went on at 6,,20,
+						<lb n="9"/>
+						Calm Weather &amp; warm;
+						<lb n="10"/>
+						my cold is very bad I feel all my
+						<lb n="11"/>
+						bones sore also chest and neck;
+						<lb n="12"/>
+					</p>
+					<p>
+						        At 10,,30 Arrived at Basreh
+						<lb n="13"/>
+						The Mail Str. Punba, the
+						<lb n="14"/>
+						S. S.  Arabistan for Asfar,
+						<lb n="15"/>
+						the Skuld for Muir Tweedy,
+						<lb n="16"/>
+						the Godwit for Hotz, and
+						<lb n="17"/>
+						the Persian St. Henry Bolckow
+						<lb n="18"/>
+						are lying here~
+						<lb n="19"/>
+					</p>
+				</div2>
+				<div2 n="2" part="N">
+					<head>22 Wedn</head>
+					<p>
+						        Light N.W. &amp; thick clouds
+						<lb n="20"/>
+						on the East and South;
+						<lb n="21"/>
+						We are not leaving till
+						<lb n="22"/>
+						tomorrow; we discharged
+						<lb n="23"/>
+						Cargo;
+						<lb n="24"/>
+					</p>
+					<p>
+						        Yousef Marine, Rufail and
+						<lb n="25"/>
+						Rezooki came to me in the
+						<lb n="26"/>
+						morning &amp; then Yousef &amp;
+						<lb n="27"/>
+						<pb n="46"/>
+					</p>
+					<p>
+						Rufail went also [page torn]
+						<lb n="1"/>
+						At 1 P.m. I went up with Rufail
+						<lb n="2"/>
+						&amp; Yousef to the Huts, there came
+						<lb n="3"/>
+						Naoom Loca &amp; Michail Yaghchi
+						<lb n="4"/>
+						&amp; spent the evening; weather
+						<lb n="5"/>
+						very calm warm &amp; moisty
+						<lb n="6"/>
+						with clouds; ~
+						<lb n="7"/>
+					</p>
+				</div2>
+				<div2 n="3" part="I">
+					<head>23 Thurs.</head>
+					<p>
+						<lb n="8"/>
+						<lb n="9"/>
+						Light S. Ely breeze &amp; cloudy
+						<lb n="10"/>
+						weather, clouds are covering
+						<lb n="11"/>
+						most part of the sky ~
+						<lb n="12"/>
+						at 7 ½ AM I came on board,
+						<lb n="13"/>
+						we are shipping cargo, there
+						<lb n="14"/>
+						is any amount here now
+						<lb n="15"/>
+						from lots of steamers, the
+						<lb n="16"/>
+						remainder of the Simla and
+						<lb n="17"/>
+						Skuld; then there is the
+						<lb n="18"/>
+						Arabistan's the Henry Bolckow
+						<lb n="19"/>
+						the Punba &amp; the Godwit,
+						<lb n="20"/>
+					</p>
+					<p>
+						        The SS. Mossul arrived at
+						<lb n="21"/>
+						7 am she has left Baghdad
+						<lb n="22"/>
+						one day before us ~
+						<lb n="23"/>
+						At 11 breeze shifting from South
+						<lb n="24"/>
+						to West but it is very hot &amp;
+						<lb n="25"/>
+						cloudy;
+						<lb n="26"/>
+						The Mail Str. Punba
+						<lb n="27"/>
+						left at 5 P.M. she shipped
+						<lb n="28"/>
+						130 horses for Bombay
+						<lb n="29"/>
+						<pb n="47"/>
+					</p>
+					<head type="marginnote" xml:id="p48-1">1894</head>
+					<head type="marginnote" xml:id="p48-2">Augst</head>
+					<p>
+						It got very calm &amp; warm
+						<lb n="1"/>
+						in the afternoon ~
+						<lb n="2"/>
+						<lb n="3"/>
+					</p>
+				</div2>
+			</div1>
+			<div1 n="2">
+				<head>
+					Basreh to Baghdad
+					<lb n="4"/>
+				</head>
+				<div2 n="3" part="F">
+					<p>
+						At 6,,10 P.M. left Basreh
+						<lb n="5"/>
+						very calm &amp; warm weather
+						<lb n="6"/>
+						Sultry &amp; moisty ~ Landed
+						<lb n="7"/>
+						Mr. Taylor &amp; Mr. Milne at Maghil
+						<lb n="8"/>
+						&amp; went on; It got very warm
+						<lb n="9"/>
+						no air &amp; very unpleasant
+						<lb n="10"/>
+						weather, heavy dew falling
+						<lb n="11"/>
+						during the night~
+						<lb n="12"/>
+					</p>
+					<p>
+						        At 11.40 landed 4 passengers
+						<lb n="13"/>
+						at Gorna &amp; went on at 11.45;
+						<lb n="14"/>
+					</p>
+				</div2>
+				<div2 n="4" part="N">
+					<head>24 Frid</head>
+					<p>
+						S. Ely breeze &amp; heavy dew
+						<lb n="15"/>
+						falling, very unpleasant
+						<lb n="16"/>
+						weather; At 4 AM. passed
+						<lb n="17"/>
+						Azair, clouds still hanging
+						<lb n="18"/>
+						on ~ Gave tickets to the
+						<lb n="19"/>
+						rest of the passengers, we
+						<lb n="20"/>
+						have in all 112 (23 with
+						<lb n="21"/>
+						through tickets &amp; one coffin)
+						<lb n="22"/>
+						<pb n="48"/>
+					</p>
+					<p>
+						of H. Mahmood son of H. Abdul=
+						<lb n="1"/>
+						Wahed Moobarek and a
+						<lb n="2"/>
+						Clerk of Hotz &amp; Co. Mr. Marshal
+						<lb n="3"/>
+						going to coot with Return
+						<lb n="4"/>
+						Ticket I gave him with 10 % discount
+						<lb n="5"/>
+					</p>
+					<p>
+						        Weather cloudy on most
+						<lb n="6"/>
+						part &amp; a light S. Ely breeze;
+						<lb n="7"/>
+						sultry &amp; warm;
+						<lb n="8"/>
+					</p>
+					<p>
+						        At 10,,35 landed 2 passengers
+						<lb n="9"/>
+						at Kalat Saleh &amp; went on at
+						<lb n="10"/>
+						10.40~ Very hot cloudy &amp; light
+						<lb n="11"/>
+						S. Ely breeze;
+						<lb n="12"/>
+					</p>
+					<p>
+						        At 3,,20 P.M. arrived at
+						<lb n="13"/>
+						Amara landed 14 1/2 passengers
+						<lb n="14"/>
+						Took in 8 tons of coal and
+						<lb n="15"/>
+						shipped about 20 packages of
+						<lb n="16"/>
+						Carpets copper etc; and at 5
+						<lb n="17"/>
+						left Amara, light S. Ely
+						<lb n="18"/>
+						breeze &amp; very warm; Took
+						<lb n="19"/>
+						29 passengers from Amara
+						<lb n="20"/>
+						Toward 8 P.m. a breeze got
+						<lb n="21"/>
+						up &amp; shifted to north &amp; N.W.
+						<lb n="22"/>
+						it got cooler at once, and
+						<lb n="23"/>
+						it kept on so throughout the
+						<lb n="24"/>
+						night, I enjoyed the sleep outside
+						<lb n="25"/>
+						very much ~
+						<lb n="26"/>
+						<pb n="49"/>
+					</p>
+					<p>
+						Light N.W. &amp; cloudy on some
+						<lb n="1"/>
+						parts ~ at 4,,20 am
+						<lb n="2"/>
+						landed 3 passengers at
+						<lb n="3"/>
+						Ali Gherbi took one &amp; went
+						<lb n="4"/>
+						on at 4..25;
+						<lb n="5"/>
+					</p>
+					<p>
+						        Weather again became calm
+						<lb n="6"/>
+						with a light S. Ely breeze,
+						<lb n="7"/>
+						but it is not so suffocating
+						<lb n="8"/>
+						&amp; moisty as yesterday~
+						<lb n="9"/>
+					</p>
+					<p>
+						        At 9.30 passed Sheikh Saad
+						<lb n="10"/>
+						S. Ely breeze &amp; very hot ~
+						<lb n="11"/>
+					</p>
+					<p>
+						        At 3..50 P.M. arriving at
+						<lb n="12"/>
+						Coot landed 16 1/2 passengers
+						<lb n="13"/>
+						including Mr. Marshall
+						<lb n="14"/>
+						clerk of Hotz &amp; co, took in 8
+						<lb n="15"/>
+						tons of coal~ The Phrat
+						<lb n="16"/>
+						left this yesterday before
+						<lb n="17"/>
+						noon~
+						<lb n="18"/>
+					</p>
+					<p>
+						        At 5,,35 left Coot, took
+						<lb n="19"/>
+						18 1/2 passengers; very calm
+						<lb n="20"/>
+						&amp; warm weather, air variable
+						<lb n="21"/>
+						At 8 the breeze shifted to N.W.
+						<lb n="22"/>
+						&amp; became cool &amp; pleasant
+						<lb n="23"/>
+					</p>
+					<p>
+						        At 9.15 grounded at Nefeshyeh
+						<lb n="24"/>
+						hove her over with a bower
+						<lb n="25"/>
+						<pb n="50"/>
+						<lb n="1"/>
+						Light N.W. &amp; fine, with some
+						<lb n="2"/>
+						clouds on the East~ at
+						<lb n="3"/>
+						3,,40 AM passed Memlah;
+						<lb n="4"/>
+						At 6.15 grounded at Deboony
+						<lb n="5"/>
+						near Mezeyer hove off and at
+						<lb n="6"/>
+						6.50 proceeded; ~
+						<lb n="7"/>
+					</p>
+					<p>
+						        At 8,,45 arrived to the bottom
+						<lb n="8"/>
+						of Shedeif found the Phrat &amp;
+						<lb n="9"/>
+						her Barge aground here, it must
+						<lb n="10"/>
+						be since yesterday , we
+						<lb n="11"/>
+						anchored &amp; sent  to sound;
+						<lb n="12"/>
+						found less than 2 1/2 draaz;
+						<lb n="13"/>
+						we steamed up to it all along
+						<lb n="14"/>
+						the West bank but could
+						<lb n="15"/>
+						not passed, &amp; had to drop
+						<lb n="16"/>
+						down back again to where
+						<lb n="17"/>
+						the Phrat is &amp; await for
+						<lb n="18"/>
+						her to get out, she is heaving
+						<lb n="19"/>
+						over &amp; has sent for an empty
+						<lb n="20"/>
+						wooding boat to discharge
+						<lb n="21"/>
+						cargo into her, she got her
+						<lb n="22"/>
+						down by 1 1/2 P.M. we went
+						<lb n="23"/>
+						alongside the bank on the
+						<lb n="24"/>
+						west, opposite where the
+						<lb n="25"/>
+						Phrat is in midstream
+						<lb n="26"/>
+						where the sand bank streches
+						<lb n="27"/>
+						in land to the East bank
+						<lb n="28"/>
+						we commemced to discharge,
+						<lb n="29"/>
+						<pb n="51"/>
+					</p>
+					<head type="marginnote" xml:id="p52-1">1894 Augst.</head>
+					<p>
+						Cargo, and Capt Cowley sent
+						<lb n="1"/>
+						two of our steersmen to get
+						<lb n="2"/>
+						an empty Boat from
+						<lb n="3"/>
+						Humenyeh reach, about
+						<lb n="4"/>
+						4 hours walk from here,
+						<lb n="5"/>
+						The weather is not so warm
+						<lb n="6"/>
+						as there is a modte N.W breeze
+						<lb n="7"/>
+						at 3 P.M. I dressed &amp; took my
+						<lb n="8"/>
+						nozle gun &amp; walked up the
+						<lb n="9"/>
+						West bank found it very
+						<lb n="10"/>
+						hot in the jungle I saw
+						<lb n="11"/>
+						few partridges on the bank
+						<lb n="12"/>
+						of the river but were very
+						<lb n="13"/>
+						shy; some flew mostly
+						<lb n="14"/>
+						all are chickens of this year
+						<lb n="15"/>
+						I shot five but lost one
+						<lb n="16"/>
+						I could not find &amp; returned
+						<lb n="17"/>
+						walking the outside jungle
+						<lb n="18"/>
+						but there were none,
+						<lb n="19"/>
+						I came on board at 5 1/2
+						<lb n="20"/>
+						We are still discharging
+						<lb n="21"/>
+						cargo~ Finished discharge
+						<lb n="22"/>
+						at 6 P.M. lightened the ship
+						<lb n="23"/>
+						up to 4 feet &amp; remained
+						<lb n="24"/>
+						alongside the bank for
+						<lb n="25"/>
+						<pb n="52"/>
+					</p>
+					<head type="marginnote" xml:id="p53-6">The @ 5. 77</head>
+					<head type="marginnote" xml:id="p53-9">
+						<emph content=" عكاب من"/>
+						 [Agab from]
+						
+					</head>
+					<head type="marginnote" xml:id="p53-10">
+						<emph content=" عشيرة قره غول"/>
+						 [the tribe of Guraghool]
+						
+					</head>
+					<head type="marginnote" xml:id="p53-23">
+						<emph content=" اربعة دراجات"/>
+						 [Four partridge]
+						
+					</head>
+					<head type="marginnote" xml:id="p53-24">
+						<emph content=" بثمانية غروش"/>
+						 [for eight Piasters]
+						
+					</head>
+					<head type="marginnote" xml:id="p53-25">
+						20 Fils) = 
+						<emph content=" (رائج = 20 فلس)"/>
+						 [(Raïj]
+						
+					</head>
+					<p>
+						over they worked till midnight
+						<lb n="1"/>
+						&amp; knocked off~
+						<lb n="2"/>
+					</p>
+				</div2>
+				<div2 n="5" part="N">
+					<head>27 Mond</head>
+					<p>
+						[space] Light N.W. and fine cool morning
+						<lb n="3"/>
+						with very few clouds; at 5 AM
+						<lb n="4"/>
+						I dressed &amp; went out Shooting
+						<lb n="5"/>
+						Mr. Hewens our 3rd Engineer
+						<lb n="6"/>
+						came with me to Shoot;
+						<lb n="7"/>
+						took an old friend of mine
+						<lb n="8"/>
+						here an Arab called Agab
+						<lb n="9"/>
+						of the Tribe of Guraghool,
+						<lb n="10"/>
+						we walked inland; we
+						<lb n="11"/>
+						first put up lots of partridges
+						<lb n="12"/>
+						nearly all flew before Mr.
+						<lb n="13"/>
+						Hewens he did not hit any,
+						<lb n="14"/>
+						we walk up river &amp; back
+						<lb n="15"/>
+						not seeing any, the sun was
+						<lb n="16"/>
+						getting too hot so we returned
+						<lb n="17"/>
+						on board at 7 1/2 the steamer
+						<lb n="18"/>
+						had gone out &amp; was heaving
+						<lb n="19"/>
+						on the shoal behind the
+						<lb n="20"/>
+						Phrat, I shot 3 partridges
+						<lb n="21"/>
+						having only fired 4 shots,
+						<lb n="22"/>
+						I also bought 4 partridges
+						<lb n="23"/>
+						from an Arab for 8 Piasters
+						<lb n="24"/>
+						but am sorry they will
+						<lb n="25"/>
+						not keep to Baghdad
+						<lb n="26"/>
+						<pb n="53"/>
+					</p>
+					<head type="marginnote" xml:id="p54-1">1894 Augt.</head>
+					<head type="marginnote" xml:id="p54-21">
+						<emph content=" دوفلذ مدير"/>
+						 [Duffield, the director]
+						
+					</head>
+					<head type="marginnote" xml:id="p54-22">
+						<emph content=" البانك العثماني"/>
+						 [of the Ottoman Bank]
+						
+					</head>
+					<p>
+						We kept heaving over with
+						<lb n="1"/>
+						bower anchors; we have
+						<lb n="2"/>
+						got an empty boat down
+						<lb n="3"/>
+						from Humenyeh this morning
+						<lb n="4"/>
+						Khedeir my old Arab friend
+						<lb n="5"/>
+						came down from Toweel here
+						<lb n="6"/>
+						he brought me a sheep which
+						<lb n="7"/>
+						I did not take~ We are
+						<lb n="8"/>
+						in deep water &amp; are still heaving,
+						<lb n="9"/>
+						At 1 1/2 P.M. the Khalifah
+						<lb n="10"/>
+						came down &amp; anchored
+						<lb n="11"/>
+						up above about 2 miles
+						<lb n="12"/>
+						away &amp; sent her boat to
+						<lb n="13"/>
+						sound; I received a letter
+						<lb n="14"/>
+						from Henry, he says they left
+						<lb n="15"/>
+						yesterday morning &amp; grounded
+						<lb n="16"/>
+						at Gusseiba for 6 hours &amp;
+						<lb n="17"/>
+						went on to Aweyn &amp; passed
+						<lb n="18"/>
+						the night there, she has 134,000
+						<lb n="19"/>
+						Okes &amp; 159 passengers, Mr.
+						<lb n="20"/>
+						Duffield the manager of the
+						<lb n="21"/>
+						Ottoman Bank is in her
+						<lb n="22"/>
+						going to Basreh for Bank
+						<lb n="23"/>
+						business~
+						<lb n="24"/>
+						At 4 P.M. the S.S Baghdad &amp;
+						<lb n="25"/>
+						Barge came down also
+						<lb n="26"/>
+						<pb n="54"/>
+					</p>
+					<head type="marginnote" xml:id="p55-23">The @ 5. 73</head>
+					<p>
+						At 4.30 the Phrat &amp; Barge
+						<lb n="1"/>
+						got off from before us and
+						<lb n="2"/>
+						steamed up, we took anchors
+						<lb n="3"/>
+						out &amp; hove up; By 6
+						<lb n="4"/>
+						P.M. we hove over &amp; up to
+						<lb n="5"/>
+						deep water &amp; close astern of
+						<lb n="6"/>
+						the Phrat which had got
+						<lb n="7"/>
+						off &amp; was close alongside
+						<lb n="8"/>
+						the East bank and so were
+						<lb n="9"/>
+						we too; the Boat of the Phrat
+						<lb n="10"/>
+						then came up to her and
+						<lb n="11"/>
+						she took her cargo in, We
+						<lb n="12"/>
+						sent all our hands down
+						<lb n="13"/>
+						to the opposite side to
+						<lb n="14"/>
+						load the boat with our cargo
+						<lb n="15"/>
+						tonight~ Light N.W. and
+						<lb n="16"/>
+						fine cool night, I had to cover
+						<lb n="17"/>
+						myself with the blanket
+						<lb n="18"/>
+						on the quarter Deck,
+						<lb n="19"/>
+					</p>
+				</div2>
+				<div2 n="6" part="N">
+					<head>28th Tuesd.</head>
+					<p>
+						[space] Light N.W &amp; fine very cool
+						<lb n="20"/>
+						morning~ At 5 AM. I
+						<lb n="21"/>
+						dressed, took my gun and
+						<lb n="22"/>
+						went to shoot on the East
+						<lb n="23"/>
+						Bank (as the Mejidieh and
+						<lb n="24"/>
+						three other steamers are
+						<lb n="25"/>
+						close alongside the bank)
+						<lb n="26"/>
+						<pb n="55"/>
+					</p>
+					<head type="marginnote" xml:id="p56-1">
+						1894 Augt.
+						<lb n="1"/>
+						I walk up the reach the
+						<lb n="2"/>
+						jungle is very thick near
+						<lb n="3"/>
+						the bank, I heard the
+						<lb n="4"/>
+						singing of the partridges all
+						<lb n="5"/>
+						around me the place is
+						<lb n="6"/>
+						full of them; but they don't
+						<lb n="7"/>
+						rise so close, I had a long
+						<lb n="8"/>
+						walk up &amp; then turned in land
+						<lb n="9"/>
+						where the Arabs have sown
+						<lb n="10"/>
+						Sessame seed &amp; it is very green
+						<lb n="11"/>
+						&amp; thick, the ground is still
+						<lb n="12"/>
+						marshy in some places from
+						<lb n="13"/>
+						the high rise of the river
+						<lb n="14"/>
+						I got caught there &amp; could
+						<lb n="15"/>
+						not come to the ship as the
+						<lb n="16"/>
+						water was every where;
+						<lb n="17"/>
+						I had to wade into it so
+						<lb n="18"/>
+						as to get across as I was
+						<lb n="19"/>
+						very thursty &amp; the heat of
+						<lb n="20"/>
+						the sun very strong, I got
+						<lb n="21"/>
+						on board 8 1/4, I shot
+						<lb n="22"/>
+						altogether 10 partridges
+						<lb n="23"/>
+						but lost two which I
+						<lb n="24"/>
+						could not find,
+						<lb n="25"/>
+						The Phrat left at 8 AM,
+						<lb n="26"/>
+						<pb n="56"/>
+					</head>
+					<head type="marginnote" xml:id="p57-12">
+						<emph content=" خضّير"/>
+						 [Khdeir]
+						
+					</head>
+					<head type="marginnote" xml:id="p57-13">
+						<emph content=" تلحاكة"/>
+						 [Telhaga]
+						
+					</head>
+					<head type="marginnote" xml:id="p57-14">
+						<emph content=" وفطيّم كلتاهما"/>
+						 [and Ftaim, both are]
+						
+					</head>
+					<head type="marginnote" xml:id="p57-15">
+						<emph content=" بنتا عربيد"/>
+						 [the daughters of Arbid]
+						
+					</head>
+					<head type="marginnote" xml:id="p57-16">
+						<emph content=" صيّاد الاسد"/>
+						 [the lion hunter]
+						
+					</head>
+					<p>
+						Alongside the bank where
+						<lb n="1"/>
+						it is barely deep enough
+						<lb n="2"/>
+						for the steamer to pass, and
+						<lb n="3"/>
+						sent the Boat with the cargo
+						<lb n="4"/>
+						which came up by this time
+						<lb n="5"/>
+						only since last night, further
+						<lb n="6"/>
+						up~ We got close and ahead
+						<lb n="7"/>
+						of the Khalifah; I took a
+						<lb n="8"/>
+						cold bath &amp; breakfasted
+						<lb n="9"/>
+						Henry, Capt, Clements and
+						<lb n="10"/>
+						Mr. Duffield came on board
+						<lb n="11"/>
+						to us, Medeir also came
+						<lb n="12"/>
+						bringing Telhaga and Ftaim
+						<lb n="13"/>
+						both daughters of Arbid
+						<lb n="14"/>
+						the old Arab Lion hunter,
+						<lb n="15"/>
+						they brought me a gazale
+						<lb n="16"/>
+						&amp; two fowels I gave them
+						<lb n="17"/>
+						watermelons Dates and 40
+						<lb n="18"/>
+						Piasters; &amp; sent them across
+						<lb n="19"/>
+						the river in a Goffa to go
+						<lb n="20"/>
+						back to their homes at
+						<lb n="21"/>
+						Toweel~ The Baghdad
+						<lb n="22"/>
+						steamed down &amp; she
+						<lb n="23"/>
+						passed the shoal without
+						<lb n="24"/>
+						<pb n="57"/>
+					</p>
+					<head type="marginnote" xml:id="p58-1">1894 Augt.</head>
+					<p>
+						much trouble &amp; went on
+						<lb n="1"/>
+						at 12 AM. The Khalifah
+						<lb n="2"/>
+						discharged some of her
+						<lb n="3"/>
+						cargo on the bank and
+						<lb n="4"/>
+						steamed on to the shoal
+						<lb n="5"/>
+						at 1 P.M. she grounded &amp;
+						<lb n="6"/>
+						hove off &amp; turned again
+						<lb n="7"/>
+						She passed over &amp; anchored
+						<lb n="8"/>
+						down near where our cargo
+						<lb n="9"/>
+						was discharged~ We took
+						<lb n="10"/>
+						in our boat &amp; the second
+						<lb n="11"/>
+						one loading came up
+						<lb n="12"/>
+						at 6 P.M. the Khalifah
+						<lb n="13"/>
+						engaged the other boat and
+						<lb n="14"/>
+						they begun to load her;
+						<lb n="15"/>
+						We finished taking in the cargo
+						<lb n="16"/>
+						from the second boat load &amp;
+						<lb n="17"/>
+						I paid them 85 Beshlics (60
+						<lb n="18"/>
+						to the former one &amp; 25 to the second)
+						<lb n="19"/>
+						[space] At 6,,55 P.M. we proceeded
+						<lb n="20"/>
+						from Shedeif, light N.W
+						<lb n="21"/>
+						&amp; fine cool evening~
+						<lb n="22"/>
+						At 10..30 landed some
+						<lb n="23"/>
+						gunny bags for Liquorice
+						<lb n="24"/>
+						roots free at Azizieh
+						<lb n="25"/>
+						<pb n="58"/>
+					</p>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
+
